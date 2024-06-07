@@ -15,6 +15,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
+    <div className="app dark:bg-secondary">
       <NavBar />
       <Socials />
       <Routes>
@@ -30,6 +31,7 @@ function App() {
       </Routes>
       <FAQ />
       <Footer />
+      </div>
     </BrowserRouter>
   );
 }

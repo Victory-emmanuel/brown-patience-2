@@ -124,7 +124,7 @@ svg {
   display: flex;
   justify-content: left;
   align-items: center;
-  height: fit-content;
+ 
   text-align: center;
   text-indent: 50px;
   transition: 600ms;
@@ -334,6 +334,10 @@ svg {
   background: url("https://i.postimg.cc/x8tND0px/20240507-073705.jpg") no-repeat
     center center/cover;
 }
+#book .hero .img {
+  background: url("https://i.postimg.cc/K8XNPK0r/Untitled-design-21.jpg")
+    no-repeat center center/cover;
+}
 
 /* ABOUT */
 
@@ -360,6 +364,10 @@ svg {
 /* COMMUNITY */
 #community .hero.img {
   background: url("  https://i.postimg.cc/KYztsxg0/IMG-20220621-WA0003.jpg")
+    no-repeat center center/cover;
+}
+#community .hero .img2 {
+  background: url("https://i.postimg.cc/Vks6Pg5t/Untitled-design.png")
     no-repeat center center/cover;
 }
 
