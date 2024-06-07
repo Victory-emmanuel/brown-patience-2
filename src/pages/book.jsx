@@ -152,7 +152,7 @@ const Book = () => {
                 <div className="mb-10 grid place-content-start  md:mb-16 lg:mb-12">
                   <Link to={"https://selar.co/ChooseYourThoughts"}>
                     <div className="btn-two-container ">
-                      <button className="text-xl font-extrabold btn-two mt-3 lg:w-[11rem] lg:h-[4rem]">
+                      <button className="text-xl font-extrabold btn-two mt-3 w-[11rem] h-[4rem]">
                         GET YOUR COPY
                       </button>
                     </div>
@@ -202,7 +202,7 @@ const Book = () => {
                 <div className="mb-10 grid place-content-start  md:mb-16 lg:mb-12">
                   <Link to={"https://selar.co/SHTM-NO"}>
                     <div className="btn-two-container ">
-                      <button className="text-xl font-extrabold btn-two mt-3 lg:w-[11rem] lg:h-[4rem]">
+                      <button className="text-xl font-extrabold btn-two mt-3 w-[11rem] h-[4rem]">
                         GET YOUR COPY
                       </button>
                     </div>
@@ -240,7 +240,7 @@ const Book = () => {
                 <div className="mb-10 grid place-content-start  md:mb-16 lg:mb-12">
                   <Link to={"https://selar.co/Priye"}>
                     <div className="btn-two-container ">
-                      <button className="text-xl font-extrabold btn-two mt-3 lg:w-[11rem] lg:h-[4rem]">
+                      <button className="text-xl font-extrabold btn-two mt-3 w-[11rem] h-[4rem]">
                         GET YOUR COPY
                       </button>
                     </div>

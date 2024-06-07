@@ -95,6 +95,11 @@ const StyledNavText = styled(NavLink)`
     font-size: 1.5rem;
     text-align: center;
   }
+     @media (max-width: 800px) {
+   
+    padding-top: 1rem;
+    
+  }
 `;
 const StyledNavBtn = styled.button`
   @media (max-width: 600px) {
@@ -126,7 +131,7 @@ const StyledMenuIcon = styled(Menu)`
   @media (max-width: 400px) {
     top: 20px;
     right: 30px;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 `;
 const SocialsMain = styled.div`
