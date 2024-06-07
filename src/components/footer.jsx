@@ -83,7 +83,7 @@ const Footer = () => {
                 </li>
               </ul>
              {/* " Dark mode" */}
-              <div className="dark:block">
+              <div className="dark:block hidden">
                <Box className="f-icon  pb-12 m-auto flex w-max items-center justify-between space-x-4">
                 <Link to="tel:+243996660436" aria-label="call">
                   <Phone sx={{color:"#fff"}} />
@@ -124,7 +124,7 @@ const Footer = () => {
               </div>
           
           {/* Light mode */}
-              <div className="dark:hidden">
+              <div className="dark:hidden block">
              <Box className="f-icon  pb-12 m-auto flex w-max items-center justify-between space-x-4">
                 <Link to="tel:+243996660436" aria-label="call">
                   <Phone />

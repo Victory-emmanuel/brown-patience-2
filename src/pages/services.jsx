@@ -34,7 +34,7 @@ const Services = () => {
                 <Link to={""}>
                   <button
                     style={{ boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.35)" }}
-                    className="relative tracking-wide mb-12 ml-6 px-12 py-4 text-secondary  text-xl font-bold  overflow-hidden bg-extraClr rounded-lg transition-all duration-800 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-accent before:to-secondary before:transition-all before:duration-1000 before:ease-in-out before:z-[-1] before:rounded-lg hover:before:left-0"
+                    className="relative tracking-wide mb-12 ss:ml-6 px-12 py-4 text-secondary  text-xl font-bold  overflow-hidden bg-extraClr rounded-lg transition-all duration-800 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-accent before:to-secondary before:transition-all before:duration-1000 before:ease-in-out before:z-[-1] before:rounded-lg hover:before:left-0"
                   >
                     EDITING
                   </button>
@@ -511,7 +511,7 @@ const Services = () => {
                 <div className="  grid place-content-start  mt-12">
                   <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
                     <div className="btn-two-container ">
-                      <button className="text-xl font-extrabold btn-two mt-3 lg:w-[15rem] lg:h-[4rem]">
+                      <button className="text-xl font-extrabold btn-two mt-3 w-[15rem] h-[4rem]">
                         SEND US A MESSAGE
                       </button>
                     </div>

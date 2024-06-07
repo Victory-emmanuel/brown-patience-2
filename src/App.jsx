@@ -1,4 +1,4 @@
-import { FAQ, Footer, NavBar, Socials } from "./components/components";
+import {  Faq, Footer, NavBar, Socials } from "./components/components";
 import {
   Home,
   Blog,
@@ -29,7 +29,7 @@ function App() {
         <Route path="/community" element={<Community />} />
         <Route path="/blogContentPg" element={<BlogContentPg />} />
       </Routes>
-      <FAQ />
+      <Faq />
       <Footer />
       </div>
     </BrowserRouter>

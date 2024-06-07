@@ -37,14 +37,14 @@ const Item = ({ title, children }) => {
       </button>
       {isOpen && (
         <div className="p-4  bg-accent dark:bg-[#111]  pt-0 ">
-          <p className="text-secondary dark:text-primary py-6">{children}</p>
+          <p className="text-primary py-6">{children}</p>
         </div>
       )}
     </div>
   );
 };
 
-const FAQ = () => {
+const Faq = () => {
   return (
     <>
       <div id="faq">
@@ -103,4 +103,4 @@ const FAQ = () => {
     </>
   );
 };
-export default FAQ;
+export default Faq;
