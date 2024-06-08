@@ -22,7 +22,7 @@ const NavWrapper = styled.nav`
     grid-template-columns: 1fr;
     grid-gap: 2rem;
   }
-  @media (max-width: 450px) {
+  @media (max-width: 400px) {
     padding: 1rem;
   }
 `;
@@ -158,16 +158,16 @@ const SocialsMain = styled.div`
     padding: 1rem 3rem;
   }
   @media (max-width: 600px) {
+   padding: 1rem 2rem;
   }
   @media (max-width: 400px) {
+  padding: 1rem 1.5rem;
   }
 `;
 const SocialsLink = styled(Link)`
   color: #fefefe;
   transition: 200ms ease-in-out;
-  @media (max-width: 400px) {
-    width: 0.5rem;
-  }
+ 
 `;
 
 export {

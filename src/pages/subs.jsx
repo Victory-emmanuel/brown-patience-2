@@ -18,11 +18,14 @@ const Subs = () => {
                       Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                       accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
                     </p>
-                    <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
-              <button className="w-[11rem] py-5 px-7 xx:mx-auto ss:mr-auto   ss:mt-6 xx:mt-8 bg-white h-[4rem] my-3 rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:text-white before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-accent before:to-lightAccent before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#343434]">
-                CONTACT US
-              </button>
-            </Link>
+                    <div className=" grid ss:place-content-start xx:place-content-center">   
+                      <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
+                          <button className="w-[11rem] py-5 px-7   ss:mt-6 xx:mt-8 bg-white h-[4rem] my-3 rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:text-white before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-accent before:to-lightAccent before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#343434]">
+                              CONTACT US
+                          </button>
+                      </Link>
+                    </div>
+                 
                 </div>
              </div>
            </div>
