@@ -1,4 +1,3 @@
-import { Menu } from "@mui/icons-material";
 
 import { Link, NavLink } from "react-router-dom";
 import styled from "styled-components";
@@ -110,28 +109,32 @@ const StyledNavBtn = styled.button`
   }
 `;
 
-const StyledMenuIcon = styled(Menu)`
-  display: none;
+const DropdownMenu = styled.div`
+  display: ${(props) => (props.open ? "block" : "none")};
   position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 100%;
+  left: 0;
+  width: 15rem;
+  border-radius: 10px;
+  padding: 1rem 1rem;
+`;
 
-  cursor: pointer;
-  color: #fff;
-  font-size: 2rem;
-  @media (max-width: 1000px) {
-    display: block;
-    top: 30px;
-    right: 20px;
-    font-size: 3rem;
-    color: #ef0909;
+const DropdownItem = styled(Link)`
+  color: #343434;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: 200ms ease-in-out;
+  &:hover {
+    background-color: #ddd;
   }
-  @media (max-width: 600px) {
-    top: 40px;
-    right: 30px;
-  }
-  @media (max-width: 400px) {
-    top: 20px;
-    right: 30px;
-    font-size: 1.5rem;
+   @media (max-width: 1000px) {
+   
+   text-align:left;
+    
   }
 `;
 const SocialsMain = styled.div`
@@ -178,7 +181,8 @@ export {
   StyledNavBtn,
   StyledNavText,
   NavWrapperLinkIcon,
-  StyledMenuIcon,
+  DropdownMenu,
+  DropdownItem,
   SocialsLink,
   SocialsMain,
 };

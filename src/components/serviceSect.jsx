@@ -36,14 +36,14 @@ const Servicesect = () => {
 
                   <div className="space-y-6">
                     <h3 className="text-2xl font-semibold text-secondary transition dark:text-white">
-                      Ghost Writing
+                     Editing
                     </h3>
                     <p className="text-secondary dark:text-primary">
-                      You've got the gist of what to write, but it's likely just
-                      a skeletal framework at this point. Whether it's jotted
-                      down in notebooks or scattered across your laptop, I step
-                      in to grasp your vision and pen it down precisely as you
-                      envision.
+                    Here, you have the writing ready. But you just need another pair of eyes to
+                    tell you, “This is good to go.” In my experience, proofreading and editing is
+                    more than dotting I’s and crossing T’s. There have been cases where the
+                        client saw reason to upturn the work. Isn’t that the good thing about
+                    getting professional service? Things get better.
                     </p>
                     <Link
                       to={"/services"}
@@ -86,13 +86,13 @@ const Servicesect = () => {
 
                   <div className="space-y-6">
                     <h3 className="text-2xl font-semibold  text-secondary transition dark:text-white">
-                      Collaboration
+                      Content Writing
                     </h3>
                     <p className="text-secondary dark:text-primary">
-                      A paragraph might be redone or deleted. A better
-                      introduction could replace it, with repetitions removed
-                      and the message clarified. Collaboration means enriching
-                      your message together—it's a partnership.
+                     You tell me you need content and I ask, “Which kind?” Social media
+                      content? Web copies? Newsletters? Blog posts? If you can just tell me
+                    what you need, you’ll get it, and even more than that, as the following
+                    project descriptions will show.
                     </p>
                     <Link
                       to={"/services"}
@@ -135,13 +135,12 @@ const Servicesect = () => {
 
                   <div className="space-y-6">
                     <h3 className="text-2xl font-semibold text-secondary transition dark:text-white">
-                      Transcription
+                    Coaching For Story Writers
                     </h3>
                     <p className="text-secondary dark:text-primary">
-                      You have a recording—audio or video—that you want turned
-                      into a book. I transcribe it, then craft it into a book.
-                      This service caters to individuals preferring to vocalize
-                      their thoughts or messages rather than type them out.
+                    If you want to train your team of content writers on how to sell with
+                    stories or you want to learn the art of compelling writing for yourself, it will
+                    take only 4 weeks to make that magic happen.
                     </p>
                     <Link
                       to={"/services"}

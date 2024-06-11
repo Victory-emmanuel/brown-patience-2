@@ -16,7 +16,7 @@ const MyStory = () => {
               >
                 My Story
               </h4>
-            <div className="m-auto grid place-content-center">
+            <div className="m-auto py-6 grid place-content-center">
               <img
                 className=" justify-self-start lg:mr-12 md:mr-0"
                 src="https://i.postimg.cc/YSMKgSpT/untitled-1082-01-jpeg.jpg"

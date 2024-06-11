@@ -10,13 +10,35 @@ import {
   NavWrapperLinkIcon,
   StyledNavBtn,
   StyledNavText,
+  DropdownMenu,
+  DropdownItem,
 } from "../styles/index.styled";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 const NavBar = () => {
   const [active, setActive] = useState(false);
+  const [servicesOpen, setServicesOpen] = useState(false);
+  const [subsOpen, setSubsOpen] = useState(false);
+  const servicesRef = useRef(null);
+  const subsRef = useRef(null);
   const location = useLocation();
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (servicesRef.current && !servicesRef.current.contains(event.target)) {
+        setServicesOpen(false);
+      }
+      if (subsRef.current && !subsRef.current.contains(event.target)) {
+        setSubsOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   // Scroll to top whenever location changes
   useEffect(() => {
@@ -25,11 +47,26 @@ const NavBar = () => {
 
   const link = [
     { page: "Home", href: "/" },
-    { page: "Services", href: "/services" },
+    {
+      page: "Services",
+      href: "#",
+      dropdown: [
+        { page: "Editing", href: "/editing" },
+        { page: "Content Writing", href: "/contentWriting" },
+        { page: "Story Writing Coaching", href: "/storyWritingCoaching" },
+      ],
+    },
     { page: "About", href: "/about" },
     { page: "Blogs", href: "/blog" },
     { page: "Books", href: "/book" },
-    { page: "Subscription", href: "/subs" },
+    {
+      page: "Subscription",
+      href: "#",
+      dropdown: [
+        { page: "Guidance For Solopreneur", href: "/guidianceForSolopreneur" },
+        { page: "Coaching For Authors", href: "/coachingForAuthors" },
+      ],
+    },
     { page: "Community", href: "/community" },
   ];
 
@@ -54,13 +91,41 @@ const NavBar = () => {
 
         <NavWrapperLink active={active}>
           {link.map((link) => (
-            <StyledNavText
-              key={link.page}
-              to={link.href}
-              className={"text-base font-semibold"}
-            >
-              {link.page}
-            </StyledNavText>
+            <div key={link.page} className="relative">
+              <StyledNavText
+                to={link.href}
+                className={"text-base font-semibold"}
+                onClick={(e) => {
+                  if (link.page === "Services" || link.page === "Subscription") {
+                    e.preventDefault();
+                    if (link.page === "Services") setServicesOpen(!servicesOpen);
+                    if (link.page === "Subscription") setSubsOpen(!subsOpen);
+                  }
+                }}
+              >
+                {link.page}
+              </StyledNavText>
+              {link.dropdown && (
+                <DropdownMenu
+                  className="absolute top-full left-0"
+                  open={
+                    (link.page === "Services" && servicesOpen) ||
+                    (link.page === "Subscription" && subsOpen)
+                  }
+                  ref={link.page === "Services" ? servicesRef : subsRef}
+                >
+                  {link.dropdown.map((dropdownLink) => (
+                    <DropdownItem
+                      key={dropdownLink.page}
+                      to={dropdownLink.href}
+                      className="block px-4 py-2 text-sm"
+                    >
+                      {dropdownLink.page}
+                    </DropdownItem>
+                  ))}
+                </DropdownMenu>
+              )}
+            </div>
           ))}
         </NavWrapperLink>
         <NavWrapperLinkIcon active={active}>
