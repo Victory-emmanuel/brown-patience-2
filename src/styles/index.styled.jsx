@@ -1,4 +1,3 @@
-
 import { Link, NavLink } from "react-router-dom";
 import styled from "styled-components";
 
@@ -94,10 +93,8 @@ const StyledNavText = styled(NavLink)`
     font-size: 1.5rem;
     text-align: center;
   }
-     @media (max-width: 800px) {
-   
+  @media (max-width: 800px) {
     padding-top: 1rem;
-    
   }
 `;
 const StyledNavBtn = styled.button`
@@ -120,6 +117,9 @@ const DropdownMenu = styled.div`
   width: 15rem;
   border-radius: 10px;
   padding: 1rem 1rem;
+  @media (max-width: 600px) {
+    position: relative;
+  }
 `;
 
 const DropdownItem = styled(Link)`
@@ -131,10 +131,8 @@ const DropdownItem = styled(Link)`
   &:hover {
     background-color: #ddd;
   }
-   @media (max-width: 1000px) {
-   
-   text-align:left;
-    
+  @media (max-width: 1000px) {
+    text-align: left;
   }
 `;
 const SocialsMain = styled.div`
@@ -161,16 +159,15 @@ const SocialsMain = styled.div`
     padding: 1rem 3rem;
   }
   @media (max-width: 600px) {
-   padding: 1rem 2rem;
+    padding: 1rem 2rem;
   }
   @media (max-width: 400px) {
-  padding: 1rem 1.5rem;
+    padding: 1rem 1.5rem;
   }
 `;
 const SocialsLink = styled(Link)`
   color: #fefefe;
   transition: 200ms ease-in-out;
- 
 `;
 
 export {
