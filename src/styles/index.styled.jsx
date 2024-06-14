@@ -61,7 +61,7 @@ const NavWrapperLink = styled.div`
     display: ${(props) => (props.active ? "flex" : "none")};
     flex-direction: column;
     text-align: center;
-    padding-top: 2rem;
+    padding: 2rem 0;
     margin-right: auto;
   }
 `;
@@ -94,7 +94,7 @@ const StyledNavText = styled(NavLink)`
     text-align: center;
   }
   @media (max-width: 800px) {
-    padding-top: 1rem;
+    padding: 1rem;
   }
 `;
 const StyledNavBtn = styled.button`

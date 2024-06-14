@@ -53,7 +53,7 @@ function App() {
       <div className="app relative dark:bg-secondary  duration-100">
         <div
           id=""
-          className="fixed top-5 z-20 right-10 duration-100  bg-primary rounded"
+          className="fixed lg:top-5 lg:right-10 xs:top-[45px] xs:right-[90px]  xx:top-[21px] xx:right-[60px]  z-20  duration-100  bg-primary rounded"
         >
           {options?.map((opt) => (
             <button
