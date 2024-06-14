@@ -1,4 +1,11 @@
-import { Faq, Footer, NavBar, Socials } from "./components/components";
+import { useEffect, useState } from "react";
+import {
+  ColorMode,
+  Faq,
+  Footer,
+  NavBar,
+  Socials,
+} from "./components/components";
 import {
   Home,
   Blog,
@@ -18,9 +25,49 @@ import {
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
+  const [theme, setTheme] = useState("light");
+  const element = document.documentElement;
+
+  const options = [
+    { icon: "sunny-outline", text: "light" },
+    { icon: "moon-outline", text: "dark" },
+  ];
+
+  useEffect(() => {
+    switch (theme) {
+      case "dark":
+        element.classList.add("dark");
+        localStorage.setItem("theme", "dark");
+        break;
+      case "light":
+        element.classList.remove("dark");
+        localStorage.setItem("theme", "light");
+        break;
+      default:
+        localStorage.removeItem("theme");
+        break;
+    }
+  }, [element.classList, theme]);
   return (
     <BrowserRouter>
-      <div className="app dark:bg-secondary">
+      <div className="app relative dark:bg-secondary  duration-100">
+        <div
+          id=""
+          className="fixed top-5 z-20 right-10 duration-100  bg-primary rounded"
+        >
+          {options?.map((opt) => (
+            <button
+              key={opt.text}
+              onClick={() => setTheme(opt.text)}
+              className={`w-8 h-8 leading-9 text-xl rounded-full m-1 ${
+                theme === opt.text && "  text-accent"
+              }`}
+            >
+              <ion-icon name={opt.icon}></ion-icon>
+            </button>
+          ))}
+        </div>
+        <ColorMode />
         <NavBar />
         <Socials />
         <Routes>

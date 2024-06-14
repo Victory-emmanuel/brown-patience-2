@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 // NAVIGATION
 const NavWrapper = styled.nav`
-  grid-template-columns: 25% 50% 25%;
+  grid-template-columns: 20% 70% 10%;
   position: relative;
   background-color: #fff;
   color: #343434;

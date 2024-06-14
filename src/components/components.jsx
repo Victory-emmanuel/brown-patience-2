@@ -7,7 +7,7 @@ export { default as ServiceSect } from "./serviceSect";
 export { default as MyBook } from "./mybook";
 export { default as SubSect } from "./subSect";
 export { default as Testimonial } from "./testimonial";
-
+export { default as ColorMode } from "./colorMode";
 export { default as Step } from "./step";
 export { default as Faq } from "./faq";
 export { default as SubsFaq } from "./subsFaq";

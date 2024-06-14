@@ -96,9 +96,13 @@ const NavBar = () => {
                 to={link.href}
                 className={"text-base font-semibold"}
                 onClick={(e) => {
-                  if (link.page === "Services" || link.page === "Subscription") {
+                  if (
+                    link.page === "Services" ||
+                    link.page === "Subscription"
+                  ) {
                     e.preventDefault();
-                    if (link.page === "Services") setServicesOpen(!servicesOpen);
+                    if (link.page === "Services")
+                      setServicesOpen(!servicesOpen);
                     if (link.page === "Subscription") setSubsOpen(!subsOpen);
                   }
                 }}
@@ -128,13 +132,13 @@ const NavBar = () => {
             </div>
           ))}
         </NavWrapperLink>
-        <NavWrapperLinkIcon active={active}>
+        {/* <NavWrapperLinkIcon active={active}>
           <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
             <StyledNavBtn className="w-[11rem] py-5 px-7 mx-auto md:my-6 xx:my-3 sm:w-[13rem] sm:h-[4.5rem] bg-extraClr h-[2.5rem] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:text-white before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-accent before:to-lightAccent before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#343434]">
               CONTACT US
             </StyledNavBtn>
           </Link>
-        </NavWrapperLinkIcon>
+        </NavWrapperLinkIcon> */}
       </NavWrapper>
     </>
   );
