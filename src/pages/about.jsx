@@ -175,12 +175,12 @@ const About = () => {
               </h2>
 
               <p className="mb-6 font-light text-secondary md:text-lg dark:text-primary">
-                Brown has done most of her learning within books. It's why she
+                Brown has done most of her learning within books. It’s why she
                 knows—on a personal level—that words can heal, provoke, redirect
-                and transform a person. Words have always drawn her. It's why
-                she's s ghostwriter—to give your words the impact she knows
+                and transform a person. Words have always drawn her. It’s why
+                she’s s ghostwriter—to give your words the impact she knows
                 words can have, to author soul-feeding salvation, one sentence
-                after the other. It's why she encourages you to write the book
+                after the other. It’s why she encourages you to write the book
                 you know you should, to share the message within you. An author,
                 copywriter, story writing coach, ghostwriter, and editor, Brown
                 lives within the realm of words. Books can save lives is an
