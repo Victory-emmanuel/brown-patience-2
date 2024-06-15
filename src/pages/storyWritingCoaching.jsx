@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Link } from "react-router-dom";
 import Testimonial from "../components/testimonial";
+import { ArrowRightAlt, DoneAll } from "@mui/icons-material";
 
 const StoryWritingCoaching = () => {
   return (
@@ -117,6 +118,7 @@ const StoryWritingCoaching = () => {
               ></div>
             </div>
           </div>
+
           <div className="bg-primary dark:bg-secondary xx:px-6 ss:px-12">
             <div className="gap-8 items-center py-24 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
               <div className="mt-4 md:mt-0 text-left">
@@ -175,6 +177,39 @@ const StoryWritingCoaching = () => {
                     boxShadow: " -8px 7px 31px 8px rgba(0,0,0,0.51)",
                   }}
                 />
+              </div>
+            </div>
+          </div>
+          {/* STEPS */}
+          <div className="ss:px-12 xx:px-6 mt-12 py-16 mb-12 mx-auto ">
+            <div className="mb-12 md:mx-auto text-center">
+              <h2 className=" pb-6  ss:text-3xl xx:text-2xl font-bold leading-none tracking-tight text-secondary dark:text-primary md:mx-auto">
+                How do you join the story writing class?
+              </h2>
+            </div>
+            <div className="grid  gap-10 lg:grid-cols-3 sm:grid-cols-2">
+              <div className="bg-secondary dark:bg-accent p-6 rounded-lg">
+                <div className="flex items-center justify-between mb-6">
+                  <p className="text-2xl font-bold text-white">Step 1</p>
+                  <ArrowRightAlt sx={{ color: "#fff" }} />
+                </div>
+                <p className=" text-white">
+                  — Find out when the next edition begins.
+                </p>
+              </div>
+              <div className="bg-extraClr p-6 rounded-lg">
+                <div className="flex items-center justify-between mb-6">
+                  <p className="text-2xl font-bold">Step 3</p>
+                  <ArrowRightAlt sx={{ color: "#343434" }} />
+                </div>
+                <p className="text-secondary">— Pay the course fee.</p>
+              </div>
+              <div className="bg-extraClr p-6 rounded-lg">
+                <div className="flex items-center justify-between mb-6">
+                  <p className="text-2xl font-bold">Success</p>
+                  <DoneAll sx={{ color: "#343434" }} />
+                </div>
+                <p className="text-secondary">— That's it.</p>
               </div>
             </div>
           </div>
