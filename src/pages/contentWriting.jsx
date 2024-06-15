@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Link } from "react-router-dom";
 import { ArrowRightAlt, DoneAll } from "@mui/icons-material";
+import Testimonial from "../components/testimonial";
 
 const ContentWriting = () => {
   return (
@@ -15,7 +16,7 @@ const ContentWriting = () => {
             className="grid ss:py-40 xx:py-32 text-center img ss:px-12 xx:px-6 "
           >
             <h1 className="sm:text-6xl xx:text-3xl sm:font-extrabold xx:font-bold text-white xx:py-3  ss:py-6">
-              OUR SERVICES
+              Content Writing
             </h1>
             <p className="sm:text-2xl xx:text-xl xx:w-full ss:w-[75%] mx-auto  text-white xx:py-3  ss:py-6 ">
               Get your message to the people in need of it. Many gifted persons
@@ -33,7 +34,7 @@ const ContentWriting = () => {
           </div>
         </section>
         {/* Content Writing  */}
-        <section className="content-writing">
+        <section className="content-writing py-12">
           <div className="  grid sm:grid-cols-2 xx:grid-cols-1 gap-4 xx:px-6 ss:px-12 dark:py-12 bg-white dark:bg-[#111]">
             <div className="bg  grid ss:place-content-start">
               <div
@@ -144,6 +145,7 @@ const ContentWriting = () => {
             </div>
           </div>
         </section>
+        <Testimonial />
       </div>
     </>
   );

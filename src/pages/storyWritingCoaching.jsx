@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Link } from "react-router-dom";
+import Testimonial from "../components/testimonial";
 
 const StoryWritingCoaching = () => {
   return (
@@ -9,7 +10,7 @@ const StoryWritingCoaching = () => {
         <section className=" hero">
           <div className="grid ss:py-40 xx:py-32 text-center img ss:px-12 xx:px-6 ">
             <h1 className="sm:text-6xl xx:text-3xl sm:font-extrabold xx:font-bold text-white xx:py-3  ss:py-6">
-              OUR SERVICES
+              Story Writing Coaching
             </h1>
             <p className="sm:text-2xl xx:text-xl xx:w-full ss:w-[75%] mx-auto  text-white xx:py-3  ss:py-6 ">
               Get your message to the people in need of it. Many gifted persons
@@ -178,6 +179,7 @@ const StoryWritingCoaching = () => {
             </div>
           </div>
         </section>
+        <Testimonial />
       </div>
     </>
   );

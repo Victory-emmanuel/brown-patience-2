@@ -27,10 +27,8 @@ const Hero = () => {
                   Create an Honest Book That Reflects Your Voice
                 </h1>
                 <p className="max-w-2xl mb-6 font-light text-secondary lg:mb-8 md:text-lg lg:text-xl dark:text-primary">
-                  Together, we will embark on a collaborative journey to write
-                  your book, working at a pace that feels natural and
-                  comfortable for you, while ensuring the highest quality of
-                  content.
+                  Get the help you need to write your book, to share your
+                  message - clearly and compellingly
                 </p>
                 <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
                   <button className="btn-one ss:mt-6 inline-flex  items-center xx:mb-6  justify-center xx:px-5 xx:py-3 xx:mr-0  px-6 py-4 mr-3 xs:text-sm xx:text-xs text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
