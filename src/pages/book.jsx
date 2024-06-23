@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom";
 import MyBook from "../components/mybook";
+import Faq from "../components/faq";
 
 const Book = () => {
   return (
     <>
       <div id="book">
-         {/* HERO */}
-         <section className="hero">
+        {/* HERO */}
+        <section className="hero">
           <div className="grid ss:py-40 xx:py-32 text-center img ss:px-12 xx:px-6 ">
             <h1 className="sm:text-6xl xx:text-3xl sm:font-extrabold xx:font-bold text-white xx:py-3  ss:py-6">
-              OUR BOOKS
+              My BOOKS
             </h1>
             <p className="sm:text-2xl xx:text-xl xx:w-full ss:w-[75%] mx-auto  text-white xx:py-3  ss:py-6 ">
               Get your message to the people in need of it. Many gifted persons
@@ -21,7 +22,7 @@ const Book = () => {
             </p>
             <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
               <button className="w-[11rem] py-5 px-7 mx-auto  bg-white h-[4rem] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:text-white before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-accent before:to-lightAccent before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#343434]">
-                CONTACT US
+                CONTACT ME
               </button>
             </Link>
           </div>
@@ -38,10 +39,10 @@ const Book = () => {
                 </h2>
                 <div className="bg xx:grid place-content-center sm:hidden">
                   <div
-                style={{ boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)" }}
-                className="img1  ss:w-[32rem] ss:h-[40rem] xs:w-[24rem] xs:h-[32rem] xx:w-[20rem] xx:h-[28rem] my-8  sm:w-0 rounded-lg"
+                    style={{ boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)" }}
+                    className="img1  ss:w-[32rem] ss:h-[40rem] xs:w-[24rem] xs:h-[32rem] xx:w-[20rem] xx:h-[28rem] my-8  sm:w-0 rounded-lg"
                   ></div>
-               </div>
+                </div>
                 <div className="">
                   <p className="mb-6 font-medium xx:text-base  lg:text-lg text-secondary  dark:text-primary lg:text-left md:text-lg md:text-center">
                     Fantasy is about the sexual mental struggles we face. Those
@@ -89,11 +90,11 @@ const Book = () => {
                   <strong>Chimamanda</strong>
                 </h2>
                 <div className="bg sm:hidden xx:grid place-content-center">
-              <div
-                style={{ boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)" }}
-                className="img2 ss:w-[32rem] ss:h-[40rem] xs:w-[24rem] xs:h-[32rem] xx:w-[20rem] xx:h-[28rem] my-8  sm:w-0  rounded-lg"
-              ></div>
-            </div>
+                  <div
+                    style={{ boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)" }}
+                    className="img2 ss:w-[32rem] ss:h-[40rem] xs:w-[24rem] xs:h-[32rem] xx:w-[20rem] xx:h-[28rem] my-8  sm:w-0  rounded-lg"
+                  ></div>
+                </div>
                 <div className="">
                   <p className="mb-6 font-medium  lg:text-lg text-secondary dark:text-primary lg:text-left md:text-lg md:text-center">
                     Born to a man without warmth, Chimamanda is married off
@@ -128,11 +129,11 @@ const Book = () => {
                   <strong>Choose your Thoughts</strong>
                 </h2>
                 <div className="bg sm:hidden xx:grid place-content-center">
-              <div
-                style={{ boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)" }}
-                className="img3   ss:w-[32rem] ss:h-[40rem] xs:w-[24rem] xs:h-[32rem] xx:w-[20rem] xx:h-[28rem] my-8  sm:w-0 rounded-lg"
-              ></div>
-            </div>
+                  <div
+                    style={{ boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)" }}
+                    className="img3   ss:w-[32rem] ss:h-[40rem] xs:w-[24rem] xs:h-[32rem] xx:w-[20rem] xx:h-[28rem] my-8  sm:w-0 rounded-lg"
+                  ></div>
+                </div>
                 <div className="">
                   <p className="mb-6 font-medium  lg:text-lg text-secondary dark:text-primary lg:text-left md:text-lg md:text-center">
                     What you do with your mind will turn and do you. I should
@@ -180,11 +181,11 @@ const Book = () => {
                   <strong>So He Taught Me 'No' </strong>
                 </h2>
                 <div className="bg sm:hidden xx:grid place-content-center">
-              <div
-                style={{ boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)" }}
-                className="img4   ss:w-[32rem] ss:h-[40rem] xs:w-[24rem] xs:h-[32rem] xx:w-[20rem] xx:h-[28rem] my-8  sm:w-0 rounded-lg"
-              ></div>
-            </div>
+                  <div
+                    style={{ boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)" }}
+                    className="img4   ss:w-[32rem] ss:h-[40rem] xs:w-[24rem] xs:h-[32rem] xx:w-[20rem] xx:h-[28rem] my-8  sm:w-0 rounded-lg"
+                  ></div>
+                </div>
                 <div className="">
                   <p className="mb-6 font-medium  lg:text-lg text-secondary dark:text-primary lg:text-left md:text-lg md:text-center">
                     This is a book about porn addiction. About the darkness that
@@ -218,11 +219,11 @@ const Book = () => {
                   <strong>Priye</strong>
                 </h2>
                 <div className="bg sm:hidden xx:grid place-content-center">
-              <div
-                style={{ boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)" }}
-                className="img5    ss:w-[32rem] ss:h-[40rem] xs:w-[24rem] xs:h-[32rem] xx:w-[20rem] xx:h-[28rem] my-8  sm:w-0 rounded-lg"
-              ></div>
-            </div>
+                  <div
+                    style={{ boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)" }}
+                    className="img5    ss:w-[32rem] ss:h-[40rem] xs:w-[24rem] xs:h-[32rem] xx:w-[20rem] xx:h-[28rem] my-8  sm:w-0 rounded-lg"
+                  ></div>
+                </div>
                 <div className="">
                   <p className="mb-6 font-medium  lg:text-lg text-secondary dark:text-primary lg:text-left md:text-lg md:text-center">
                     Priye is another bright high school student. Never had it
@@ -256,6 +257,8 @@ const Book = () => {
             </div>
           </div>
         </section>
+        {/* FAQ */}
+        <Faq />
       </div>
     </>
   );

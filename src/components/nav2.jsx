@@ -51,22 +51,23 @@ const NavBar = () => {
       page: "Services",
       href: "#",
       dropdown: [
-        { page: "Editing", href: "/editing" },
+        { page: " Book Writing & Editing", href: "/editing" },
         { page: "Content Writing", href: "/contentWriting" },
         { page: "Story Writing Coaching", href: "/storyWritingCoaching" },
       ],
     },
     { page: "About", href: "/about" },
-    { page: "Blogs", href: "/blog" },
-    { page: "Books", href: "/book" },
     {
-      page: "Subscription",
+      page: "Subscriptions",
       href: "#",
       dropdown: [
-        { page: "Guidance For Solopreneur", href: "/guidianceForSolopreneur" },
+        { page: "Guidance For Solopreneurs", href: "/guidianceForSolopreneur" },
         { page: "Coaching For Authors", href: "/coachingForAuthors" },
       ],
     },
+    { page: "Books", href: "/book" },
+
+    { page: "Blog", href: "/blog" },
     { page: "Community", href: "/community" },
   ];
 
@@ -98,12 +99,12 @@ const NavBar = () => {
                 onClick={(e) => {
                   if (
                     link.page === "Services" ||
-                    link.page === "Subscription"
+                    link.page === "Subscriptions"
                   ) {
                     e.preventDefault();
                     if (link.page === "Services")
                       setServicesOpen(!servicesOpen);
-                    if (link.page === "Subscription") setSubsOpen(!subsOpen);
+                    if (link.page === "Subscriptions") setSubsOpen(!subsOpen);
                   }
                 }}
               >
@@ -114,7 +115,7 @@ const NavBar = () => {
                   className="absolute top-full left-0"
                   open={
                     (link.page === "Services" && servicesOpen) ||
-                    (link.page === "Subscription" && subsOpen)
+                    (link.page === "Subscriptions" && subsOpen)
                   }
                   ref={link.page === "Services" ? servicesRef : subsRef}
                 >

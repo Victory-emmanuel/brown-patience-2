@@ -10,7 +10,7 @@ const Hero = () => {
               <div className="col-span-1">
                 <div className="relative w-full">
                   <img
-                    src="https://i.postimg.cc/5NYfvdcd/20240511-232249.jpg"
+                    src="https://i.postimg.cc/dQpzFDWb/20240511-231906.jpg"
                     alt="shoes"
                     loading="lazy"
                     style={{
@@ -23,21 +23,14 @@ const Hero = () => {
               </div>
 
               <div className="lg:text-left xx:mt-8  xs:mt-6 sm:text-center sm:mt-12 place-self-center lg:col-span-1">
-                <h1 className="max-w-2xl  mb-8 font-extrabold tracking-tight leading-none md:text-4xl ss:text-3xl xs:text-2xl  xx:text-3l sm:text-4xl xl:text-5xl dark:text-white">
-                  Create an Honest Book That Reflects Your Voice
-                </h1>
-                <p className="max-w-2xl mb-6 font-light text-secondary lg:mb-8 md:text-lg lg:text-xl dark:text-primary">
+                <h1 className="max-w-2xl sm:leading-[1.3]  mb-8 font-extrabold tracking-tight  ss:text-3xl xx:text-2xl sm:text-5xl dark:text-white">
                   Get the help you need to write your book, to share your
-                  message - clearly and compellingly
-                </p>
+                  message — clearly, compellingly.
+                </h1>
+                {/* <p className="max-w-2xl mb-6 font-light text-secondary lg:mb-8 md:text-lg lg:text-xl dark:text-primary"></p> */}
                 <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
                   <button className="btn-one ss:mt-6 inline-flex  items-center xx:mb-6  justify-center xx:px-5 xx:py-3 xx:mr-0  px-6 py-4 mr-3 xs:text-sm xx:text-xs text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
-                    MESSAGE US
-                  </button>
-                </Link>
-                <Link to={"/book"}>
-                  <button className="relative ss:mt-6 ml-6 xx:hidden xs:inline-block px-6 py-4 text-secondary xs:text-xs text-base font-bold nded-full overflow-hidden bg-white rounded-lg transition-all duration-800 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-accent before:to-secondary before:transition-all before:duration-1000 before:ease-in-out before:z-[-1] before:rounded-lg hover:before:left-0">
-                    ALL BOOKS
+                    MESSAGE ME
                   </button>
                 </Link>
               </div>

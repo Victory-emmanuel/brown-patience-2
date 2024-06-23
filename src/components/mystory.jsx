@@ -51,7 +51,7 @@ const MyStory = () => {
                 lives within the realm of words.......................
               </p>
               <div className="xx:grid xx:place-content-start">
-                <Link to={""}>
+                <Link to={"/about"}>
                   <div className="btn-two-container ">
                     <button className="text-xl font-extrabold btn-two mt-3  w-[9.375rem] h-[3.125rem]">
                       READ MORE

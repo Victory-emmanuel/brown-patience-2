@@ -1,19 +1,10 @@
 import { useEffect, useState } from "react";
-import {
-  ColorMode,
-  Faq,
-  Footer,
-  NavBar,
-  Socials,
-} from "./components/components";
+import { ColorMode, Footer, NavBar, Socials } from "./components/components";
 import {
   Home,
   Blog,
-  Services,
   About,
   Book,
-  Subs,
-  Contact,
   Community,
   BlogContentPg,
   GuidianceForSolopreneur,
@@ -72,11 +63,10 @@ function App() {
         <Socials />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/services" element={<Services />} />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/book" element={<Book />} />
-          <Route path="/subs" element={<Subs />} />
+
           <Route
             path="/guidianceForSolopreneur"
             element={<GuidianceForSolopreneur />}
@@ -88,11 +78,10 @@ function App() {
             path="/storyWritingCoaching"
             element={<StoryWritingCoaching />}
           />
-          <Route path="/contact" element={<Contact />} />
+
           <Route path="/community" element={<Community />} />
           <Route path="/blogContentPg" element={<BlogContentPg />} />
         </Routes>
-        <Faq />
         <Footer />
       </div>
     </BrowserRouter>

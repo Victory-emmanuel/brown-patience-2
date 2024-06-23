@@ -43,9 +43,8 @@ const community = () => {
         {/* Hero small screen */}
         <section className=" hero    ">
           <div className=" xx:grid img2  ss:h-[40rem] xs:h-[32rem] gap-y-12  sm:hidden text-center ">
-
             <h1 className="ss:text-6xl xs:text-5xl xx:text-4xl text-primary  inline-block py-0 ss:mt-[8rem] xs:mt-[6rem] xx:mt-[4rem]  mx-auto  rounded-lg  sm:font-extrabold xx:font-bold ">
-            Welcome To 
+              Welcome To
             </h1>
             {/* <p className="sm:text-2xl xx:text-xl xx:w-full ss:w-[75%] mx-auto  text-white xx:py-3  ss:py-6 ">
             You don't like what happens in your thoughts. You'd like to
@@ -53,16 +52,16 @@ const community = () => {
                   Water & directions for use.
             </p> */}
             <div className=" grid place-content-center mt-[12rem] mx-auto">
-                <Link
-                  to={
-                    "https://www.instagram.com/theoasis.network?igsh=aWJ6YnhoazB6bDIy"
-                  }
-                >
-                  <button className="ss:w-[15rem]   ss:h-[5rem] xs:w-[13rem]  xs:h-[4rem]  xx:w-[11rem]  xx:h-[3.5rem]  mx-auto gap-4  bg-white my-12 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:text-white before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-secondary before:to-green before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#343434]">
-                    <span className="">LEARN MORE</span> <Instagram />
-                  </button>
-                </Link>
-              </div>
+              <Link
+                to={
+                  "https://www.instagram.com/theoasis.network?igsh=aWJ6YnhoazB6bDIy"
+                }
+              >
+                <button className="ss:w-[15rem]   ss:h-[5rem] xs:w-[13rem]  xs:h-[4rem]  xx:w-[11rem]  xx:h-[3.5rem]  mx-auto gap-4  bg-white my-12 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:text-white before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-secondary before:to-green before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#343434]">
+                  <span className="">LEARN MORE</span> <Instagram />
+                </button>
+              </Link>
+            </div>
           </div>
         </section>
         {/* ORIGIN SECTION */}
@@ -141,104 +140,110 @@ const community = () => {
           </div>
         </section>
         {/* BOOK RECOMMENDATIONS */}
-        
-        <section className="  mx-auto px-6 md:px-12">
-            <div className="text-center">
-              <h2
-                style={{
-                  borderBottom: "2px solid #343434",
-                 
-                  paddingBottom: "1rem",
-                }}
-                className=" mb-12 text-center text-2xl xx:hidden ss:inline-block font-bold text-secondary dark:text-white md:text-4xl"
-              >
-                Our Book
-              </h2>
-            </div>
 
-            <div className="my-16 items-center grid ss:grid-cols-2 xx:grid-cols-1">
-              <h4 className=" text-2xl ss:block xx:hidden font-bold text-secondary dark:text-white md:text-2xl">
-                POPULAR
-              </h4>
-              <div className="ss:justify-self-end xx:justify-self-center ">
-                <Link to={""}>
-                  <button className="relative ss:ml-6 xx:ml-0 ss:px-6 py-4 xx:px-16   text-secondary text-base font-bold nded-full overflow-hidden bg-extraClr rounded-lg transition-all duration-800 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-accent before:to-secondary before:transition-all before:duration-1000 before:ease-in-out before:z-[-1] before:rounded-lg hover:before:left-0">
-                    ALL BOOKS
-                  </button>
-                </Link>
+        <section className="  mx-auto px-6 md:px-12">
+          <div className="text-center">
+            <h2
+              style={{
+                borderBottom: "2px solid #343434",
+
+                paddingBottom: "1rem",
+              }}
+              className=" mb-12 text-center text-2xl xx:hidden ss:inline-block font-bold text-secondary dark:text-white md:text-4xl"
+            >
+              Our Book
+            </h2>
+          </div>
+
+          <div className="my-16 items-center grid ss:grid-cols-2 xx:grid-cols-1">
+            <h4 className=" text-2xl ss:block xx:hidden font-bold text-secondary dark:text-white md:text-2xl">
+              POPULAR
+            </h4>
+            <div className="ss:justify-self-end xx:justify-self-center ">
+              <Link to={""}>
+                <button className="relative ss:ml-6 xx:ml-0 ss:px-6 py-4 xx:px-16   text-secondary text-base font-bold nded-full overflow-hidden bg-extraClr rounded-lg transition-all duration-800 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-accent before:to-secondary before:transition-all before:duration-1000 before:ease-in-out before:z-[-1] before:rounded-lg hover:before:left-0">
+                  ALL BOOKS
+                </button>
+              </Link>
+            </div>
+          </div>
+          <div className="grid gap-6 ss:px-4 xx:px-0 sm:px-0 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+            <div className="group relative rounded-3xl xx:w-full ss:space-y-6 overflow-hidden">
+              <img
+                className="mx-auto h-full w-full grayscale object-cover object-top ransition duration-500 group-hover:scale-105 group-hover:grayscale-0"
+                src="https://i.postimg.cc/X7HmPYNM/IMG-20220917-WA0018.webp"
+                alt="woman"
+                loading="lazy"
+                width="640"
+                height="805"
+              />
+              <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-green dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
+                <div>
+                  <h4 className="text-xl font-semibold dark:text-gray-700 text-white">
+                    Brown Patience
+                  </h4>
+                  <span className="block text-sm text-white dark:text-secondary">
+                    Writer
+                  </span>
+                </div>
+                <p className="mt-2 text-primary dark:text-gray-600">
+                  This is a book about porn addiction. About the darkness that
+                  persists even after you've stopped viewing it. All based on
+                  true experience......
+                </p>
               </div>
             </div>
-            <div className="grid gap-6 ss:px-4 xx:px-0 sm:px-0 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
-              <div className="group relative rounded-3xl xx:w-full ss:space-y-6 overflow-hidden">
-                <img
-                  className="mx-auto h-full w-full grayscale object-cover object-top ransition duration-500 group-hover:scale-105 group-hover:grayscale-0"
-                  src="https://i.postimg.cc/X7HmPYNM/IMG-20220917-WA0018.webp"
-                  alt="woman"
-                  loading="lazy"
-                  width="640"
-                  height="805"
-                />
-                <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-accent dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
-                  <div>
-                    <h4 className="text-xl font-semibold dark:text-gray-700 text-white">
-                      Brown Patience
-                    </h4>
-                    <span className="block text-sm text-white dark:text-secondary">Writer</span>
-                  </div>
-                  <p className="mt-2 text-primary dark:text-gray-600">
-                    This is a book about porn addiction. About the darkness that
-                    persists even after you've stopped viewing it. All based on
-                    true experience......
-                  </p>
+            <div className="group relative rounded-3xl  space-y-6 overflow-hidden">
+              <img
+                className="mx-auto h-full w-full grayscale object-cover object-top ransition duration-500 group-hover:scale-105 group-hover:grayscale-0"
+                src="https://i.postimg.cc/dQByTBQ2/20240507-073747.jpg"
+                alt="Book cover"
+                loading="lazy"
+                width="640"
+                height="805"
+              />
+              <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-green dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
+                <div>
+                  <h4 className="text-xl font-semibold dark:text-gray-700 text-white">
+                    Brown Patience
+                  </h4>
+                  <span className="block text-sm text-white dark:text-secondary">
+                    Writer
+                  </span>
                 </div>
-              </div>
-              <div className="group relative rounded-3xl  space-y-6 overflow-hidden">
-                <img
-                  className="mx-auto h-full w-full grayscale object-cover object-top ransition duration-500 group-hover:scale-105 group-hover:grayscale-0"
-                  src="https://i.postimg.cc/dQByTBQ2/20240507-073747.jpg"
-                  alt="Book cover"
-                  loading="lazy"
-                  width="640"
-                  height="805"
-                />
-                <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-accent dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
-                  <div>
-                    <h4 className="text-xl font-semibold dark:text-gray-700 text-white">
-                      Brown Patience
-                    </h4>
-                    <span className="block text-sm text-white dark:text-secondary">Writer</span>
-                  </div>
-                  <p className="mt-2 text-primary dark:text-gray-600">
+                <p className="mt-2 text-primary dark:text-gray-600">
                   What you do with your mind will turn and do you. I should
-                    know. If you brood and ruminate on depressing thoughts.....
-                  </p>
-                </div>
-              </div>
-              <div className="group relative rounded-3xl  space-y-6 overflow-hidden">
-                <img
-                  className="mx-auto h-full w-full grayscale object-cover object-top transition duration-500 group-hover:scale-105 group-hover:grayscale-0"
-                  src="https://i.postimg.cc/HxnPkZyj/20240207-064011.jpg"
-                  alt="woman"
-                  loading="lazy"
-                  width="640"
-                  height="805"
-                />
-                <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-accent dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
-                  <div>
-                    <h4 className="text-xl font-semibold dark:text-gray-700 text-white">
-                      Brown Patience
-                    </h4>
-                    <span className="block text-sm text-white dark:text-secondary">Writer</span>
-                  </div>
-                  <p className="mt-2 text-primary dark:text-gray-600">
-                    Fantasy is about the sexual mental struggles we face. Those
-                    steamy thoughts that feel like you're engaging in a porn
-                    video production.......
-                  </p>
-                </div>
+                  know. If you brood and ruminate on depressing thoughts.....
+                </p>
               </div>
             </div>
-          </section>
+            <div className="group relative rounded-3xl  space-y-6 overflow-hidden">
+              <img
+                className="mx-auto h-full w-full grayscale object-cover object-top transition duration-500 group-hover:scale-105 group-hover:grayscale-0"
+                src="https://i.postimg.cc/HxnPkZyj/20240207-064011.jpg"
+                alt="woman"
+                loading="lazy"
+                width="640"
+                height="805"
+              />
+              <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-green dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
+                <div>
+                  <h4 className="text-xl font-semibold dark:text-gray-700 text-white">
+                    Brown Patience
+                  </h4>
+                  <span className="block text-sm text-white dark:text-secondary">
+                    Writer
+                  </span>
+                </div>
+                <p className="mt-2 text-primary dark:text-gray-600">
+                  Fantasy is about the sexual mental struggles we face. Those
+                  steamy thoughts that feel like you're engaging in a porn video
+                  production.......
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );

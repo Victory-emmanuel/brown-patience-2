@@ -9,13 +9,12 @@ const Servicesect = () => {
             <div className="text-center">
               <h2
                 style={{
-                 
                   display: "inline-block",
                   paddingBottom: "1rem",
                 }}
                 className=" border-b-4 border-solid border-b-secondary dark:border-b-primary mb-12 xs:mb-8 text-center text-2xl xs:text-2xl  font-bold text-secondary dark:text-primary md:text-4xl"
               >
-                What We Offer
+                My Services
               </h2>
             </div>
             <div className="mt-16 grid  place-self-center  gap-8 sm:w-2/3  md:w-full md:grid-cols-2 md:-mx-8 lg:grid-cols-3">
@@ -24,7 +23,7 @@ const Servicesect = () => {
                 className="p-8 py-12 sm:p-12 rounded-3xl dark:bg-secondary dark:shadow-none"
               >
                 <div className="space-y-12 text-center">
-                  <Link href="" title="Iconic Panda" className="text-xs">
+                  <Link to="" title="Iconic Panda" className="text-xs">
                     <img
                       src="https://i.postimg.cc/bvvgbxc4/pencil.png"
                       className="w-20  xs:w-16 mx-auto"
@@ -36,17 +35,19 @@ const Servicesect = () => {
 
                   <div className="space-y-6">
                     <h3 className="text-2xl font-semibold text-secondary transition dark:text-white">
-                     Editing
+                      Book Writing & Editing
                     </h3>
                     <p className="text-secondary dark:text-primary">
-                    Here, you have the writing ready. But you just need another pair of eyes to
-                    tell you, “This is good to go.” In my experience, proofreading and editing is
-                    more than dotting I’s and crossing T’s. There have been cases where the
-                        client saw reason to upturn the work. Isn’t that the good thing about
-                    getting professional service? Things get better.
+                      Here, you have the writing ready. But you just need
+                      another pair of eyes to tell you, “This is good to go.” In
+                      my experience, proofreading and editing is more than
+                      dotting I’s and crossing T’s. There have been cases where
+                      the client saw reason to upturn the work. Isn’t that the
+                      good thing about getting professional service? Things get
+                      better.
                     </p>
                     <Link
-                      to={"/services"}
+                      to={"/editing"}
                       className="group relative flex mx-auto h-12 w-12 items-center justify-center before:absolute before:inset-0 before:rounded-full before:border before:border-primary before:bg-primary before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-secondary dark:before:bg-secondary"
                     >
                       <svg
@@ -71,12 +72,12 @@ const Servicesect = () => {
               >
                 <div className="space-y-12 text-center">
                   <Link
-                    href="https://www.flaticon.com/authors/iconic-panda"
+                    to="https://www.flaticon.com/authors/iconic-panda"
                     title="Iconic Panda"
                     className="text-xs"
                   >
                     <img
-                      src="https://i.postimg.cc/PqGfv4w5/collaborate-1.png"
+                      src="https://i.postimg.cc/52XnRN1p/web-design.png"
                       className="w-20  xs:w-16 mx-auto"
                       width="512"
                       height="512"
@@ -89,13 +90,14 @@ const Servicesect = () => {
                       Content Writing
                     </h3>
                     <p className="text-secondary dark:text-primary">
-                     You tell me you need content and I ask, “Which kind?” Social media
-                      content? Web copies? Newsletters? Blog posts? If you can just tell me
-                    what you need, you’ll get it, and even more than that, as the following
-                    project descriptions will show.
+                      You tell me you need content and I ask, “Which kind?”
+                      Social media content? Web copies? Newsletters? Blog posts?
+                      If you can just tell me what you need, you’ll get it, and
+                      even more than that, as the following project descriptions
+                      will show.
                     </p>
                     <Link
-                      to={"/services"}
+                      to={"/contentWriting"}
                       className="group relative flex mx-auto h-12 w-12 items-center justify-center before:absolute before:inset-0 before:rounded-full before:border before:border-gray-200 before:bg-gray-50 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-secondary dark:before:bg-secondary"
                     >
                       <svg
@@ -120,12 +122,12 @@ const Servicesect = () => {
               >
                 <div className="space-y-12 text-center">
                   <Link
-                    href="https://www.freepik.com"
+                    to="https://www.freepik.com"
                     title="Freepik"
                     className="text-xs"
                   >
                     <img
-                      src="https://i.postimg.cc/ZRwhHFC3/transcription.png"
+                      src="https://i.postimg.cc/8zfmbKB0/training.png"
                       className="w-20  xx:w-16 xs:w-16 mx-auto"
                       width="512"
                       height="512"
@@ -135,15 +137,16 @@ const Servicesect = () => {
 
                   <div className="space-y-6">
                     <h3 className="text-2xl font-semibold text-secondary transition dark:text-white">
-                    Coaching For Story Writers
+                      Coaching For Story Writers
                     </h3>
                     <p className="text-secondary dark:text-primary">
-                    If you want to train your team of content writers on how to sell with
-                    stories or you want to learn the art of compelling writing for yourself, it will
-                    take only 4 weeks to make that magic happen.
+                      If you want to train your team of content writers on how
+                      to sell with stories or you want to learn the art of
+                      compelling writing for yourself, it will take only 4 weeks
+                      to make that magic happen.
                     </p>
                     <Link
-                      to={"/services"}
+                      to={"/storyWritingCoaching"}
                       className="group relative flex mx-auto h-12 w-12 items-center justify-center before:absolute before:inset-0 before:rounded-full before:border before:border-primary before:bg-primary before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-secondary dark:before:bg-secondary"
                     >
                       <svg
@@ -162,16 +165,6 @@ const Servicesect = () => {
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div className="  grid place-content-center  mt-12">
-              <Link to={"/services"}>
-                <div className="btn-two-container ">
-                  <button className="text-xl font-extrabold btn-two mt-3 w-[9rem] h-[3rem]">
-                    SEE MORE
-                  </button>
-                </div>
-              </Link>
             </div>
           </div>
         </section>

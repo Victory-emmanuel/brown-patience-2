@@ -34,8 +34,7 @@ const Testimonial = () => {
     slidesToShow: 2,
     slidesToScroll: 2,
     initialSlide: 0,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
+
     responsive: [
       {
         breakpoint: 1024,
@@ -44,6 +43,8 @@ const Testimonial = () => {
           slidesToScroll: 2,
           infinite: true,
           dots: true,
+          nextArrow: <SampleNextArrow />,
+          prevArrow: <SamplePrevArrow />,
         },
       },
       {
@@ -53,6 +54,8 @@ const Testimonial = () => {
           slidesToScroll: 1,
           infinite: true,
           dots: true,
+          nextArrow: <SampleNextArrow />,
+          prevArrow: <SamplePrevArrow />,
         },
       },
       {

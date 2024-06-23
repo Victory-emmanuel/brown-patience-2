@@ -6,6 +6,7 @@ import {
   SubSect,
   Testimonial,
   Step,
+  Faq,
 } from "../components/components";
 
 const Home = () => {
@@ -15,10 +16,12 @@ const Home = () => {
         <Hero />
         <ServiceSect />
         <MyStory />
-        <MyBook />
         <SubSect />
+        <MyBook />
         <Testimonial />
         <Step />
+        {/* FREQUENTLY ASKED QUESTION */}
+        <Faq />
       </div>
     </>
   );

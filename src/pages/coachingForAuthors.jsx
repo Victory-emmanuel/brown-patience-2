@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Link } from "react-router-dom";
-import { Testimonial, Step } from "../components/components";
+import { Testimonial, Step, Faq } from "../components/components";
 const CoachingForAuthors = () => {
   return (
     <>
@@ -11,7 +11,7 @@ const CoachingForAuthors = () => {
             <div className="mb-16 lg:my-40 xx:my-auto lg:max-w-lg lg:pr-5">
               <div className="lg:max-w-xl  lg:mb-6 xx:my-auto">
                 <h2 className="max-w-lg  mb-6 font-sans lg:text-5xl font-bold tracking-tight text-accent ss:text-left xx:text-center ss:text-3xl sm:text-4xl sm:leading-none">
-                  Our Subscription
+                  Caoching For Authors
                 </h2>
                 <p className="sm:text-base ss:text-sm mt-8 text-secondary dark:text-primary md:text-lg  ss:text-left xx:text-center">
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -21,7 +21,7 @@ const CoachingForAuthors = () => {
                 <div className=" grid ss:place-content-start xx:place-content-center">
                   <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
                     <button className="w-[11rem] py-5 px-7   ss:mt-6 xx:mt-8 bg-white h-[4rem] my-3 rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:text-white before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-accent before:to-lightAccent before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#343434]">
-                      CONTACT US
+                      CONTACT ME
                     </button>
                   </Link>
                 </div>
@@ -259,6 +259,8 @@ const CoachingForAuthors = () => {
           <Step />
           <Testimonial />
         </section>
+        {/* FAQ */}
+        <Faq />
       </div>
     </>
   );
