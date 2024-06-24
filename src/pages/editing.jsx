@@ -1,14 +1,15 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Link } from "react-router-dom";
-import Testimonial from "../components/testimonial";
 import Faq from "../components/faq";
+import { HashLink } from "react-router-hash-link";
+import MySlider from "../components/mySlider";
 
 const Editing = () => {
   return (
     <>
       <div id="service">
         {/* HERO */}
-        <section className=" hero">
+        <section id="hero" className=" hero">
           <div className="grid ss:py-40 xx:py-32 text-center img ss:px-12 xx:px-6 ">
             <h1 className="sm:text-6xl xx:text-3xl sm:font-extrabold xx:font-bold text-white xx:py-3  ss:py-6">
               Book Writing and Editing
@@ -23,7 +24,7 @@ const Editing = () => {
             </p>
             <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
               <button className="w-[11rem] py-5 px-7 mx-auto  bg-white h-[4rem] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:text-white before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-accent before:to-lightAccent before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#343434]">
-                CONTACT US
+                CONTACT ME
               </button>
             </Link>
           </div>
@@ -174,93 +175,73 @@ const Editing = () => {
                 className="p-8 py-12 sm:p-12 rounded-3xl dark:bg-secondary dark:shadow-none"
               >
                 <div className="space-y-12 text-center">
-                  <Link href="" title="Iconic Panda" className="text-xs">
-                    <img
-                      src="https://i.postimg.cc/bvvgbxc4/pencil.png"
-                      className="w-20  xs:w-16 mx-auto"
-                      width="512"
-                      height="512"
-                      alt="Pencil"
-                    />
-                  </Link>
+                  <div className="space-y-6">
+                    <h3 className="text-2xl font-semibold text-secondary transition dark:text-white">
+                      Editing
+                    </h3>
+                    <p className="text-secondary dark:text-primary">
+                      <HashLink smooth to="#editing">
+                        <img
+                          src="https://i.postimg.cc/YSZBhqfs/Editing_body_text-bro_(1).png"
+                          alt="editing"
+                          className=""
+                        />
+                      </HashLink>
+                    </p>
 
+                    <HashLink smooth to={"#editing"}>
+                      <p className=" text-accent">Learn More...</p>
+                    </HashLink>
+                  </div>
+                </div>
+              </div>
+              <div
+                style={{ boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.75)" }}
+                className="p-8 py-12 sm:p-12 rounded-3xl dark:bg-secondary dark:shadow-none"
+              >
+                <div className="space-y-12 text-center">
                   <div className="space-y-6">
                     <h3 className="text-2xl font-semibold text-secondary transition dark:text-white">
                       Ghost Writing
                     </h3>
                     <p className="text-secondary dark:text-primary">
-                      You've got the gist of what to write, but it's likely just
-                      a skeletal framework at this point. Whether it's jotted
-                      down in notebooks or scattered across your laptop, I step
-                      in to grasp your vision and pen it down precisely as you
-                      envision.
-                    </p>
-                    <Link
-                      to={"/"}
-                      className="group relative flex mx-auto h-12 w-12 items-center justify-center before:absolute before:inset-0 before:rounded-full before:border before:border-primary before:bg-primary before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-secondary dark:before:bg-secondary"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="relative w-5 h-5 text-secondary dark:text-white transition duration-300 group-hover:translate-x-1"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
-                          clipRule="evenodd"
+                      <HashLink smooth to="#ghost-writing">
+                        <img
+                          src="https://i.postimg.cc/W4hPNJrZ/Notes-bro_(1).png"
+                          alt="editing"
+                          className=""
                         />
-                      </svg>
-                    </Link>
+                      </HashLink>
+                    </p>
+
+                    <HashLink smooth to={"#ghost-writing"}>
+                      <p className=" text-accent">Learn More...</p>
+                    </HashLink>
                   </div>
                 </div>
               </div>
               <div
                 style={{ boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.75)" }}
-                className="p-8 py-12 sm:p-12 rounded-3xl  dark:bg-secondary"
+                className="p-8 py-12 sm:p-12 rounded-3xl dark:bg-secondary dark:shadow-none"
               >
                 <div className="space-y-12 text-center">
-                  <Link
-                    href="https://www.flaticon.com/authors/iconic-panda"
-                    title="Iconic Panda"
-                    className="text-xs"
-                  >
-                    <img
-                      src="https://i.postimg.cc/PqGfv4w5/collaborate-1.png"
-                      className="w-20  xs:w-16 mx-auto"
-                      width="512"
-                      height="512"
-                      alt="Collaboration"
-                    />
-                  </Link>
-
                   <div className="space-y-6">
-                    <h3 className="text-2xl font-semibold  text-secondary transition dark:text-white">
+                    <h3 className="text-2xl font-semibold text-secondary transition dark:text-white">
                       Collaboration
                     </h3>
                     <p className="text-secondary dark:text-primary">
-                      A paragraph might be redone or deleted. A better
-                      introduction could replace it, with repetitions removed
-                      and the message clarified. Collaboration means enriching
-                      your message together—it's a partnership.
-                    </p>
-                    <Link
-                      to={""}
-                      className="group relative flex mx-auto h-12 w-12 items-center justify-center before:absolute before:inset-0 before:rounded-full before:border before:border-gray-200 before:bg-gray-50 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-secondary dark:before:bg-secondary"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="relative w-5 h-5 text-secondary dark:text-white transition duration-300 group-hover:translate-x-1"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
-                          clipRule="evenodd"
+                      <HashLink smooth to="#collaboration">
+                        <img
+                          src="https://i.postimg.cc/W19vc7Dj/Collaboration-amico_(1).png"
+                          alt="collaboration"
+                          className=""
                         />
-                      </svg>
-                    </Link>
+                      </HashLink>
+                    </p>
+
+                    <HashLink smooth to={"#collaboration"}>
+                      <p className=" text-accent">Learn More...</p>
+                    </HashLink>
                   </div>
                 </div>
               </div>
@@ -269,96 +250,23 @@ const Editing = () => {
                 className="p-8 py-12 sm:p-12 rounded-3xl dark:bg-secondary dark:shadow-none"
               >
                 <div className="space-y-12 text-center">
-                  <Link
-                    href="https://www.freepik.com"
-                    title="Freepik"
-                    className="text-xs"
-                  >
-                    <img
-                      src="https://i.postimg.cc/ZRwhHFC3/transcription.png"
-                      className="w-20  xx:w-16 xs:w-16 mx-auto"
-                      width="512"
-                      height="512"
-                      alt="Content writer"
-                    />
-                  </Link>
-
                   <div className="space-y-6">
                     <h3 className="text-2xl font-semibold text-secondary transition dark:text-white">
                       Transcription
                     </h3>
                     <p className="text-secondary dark:text-primary">
-                      You have a recording—audio or video—that you want turned
-                      into a book. I transcribe it, then craft it into a book.
-                      This service caters to individuals preferring to vocalize
-                      their thoughts or messages rather than type them out.
-                    </p>
-                    <Link
-                      to={"/services"}
-                      className="group relative flex mx-auto h-12 w-12 items-center justify-center before:absolute before:inset-0 before:rounded-full before:border before:border-primary before:bg-primary before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-secondary dark:before:bg-secondary"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="relative w-5 h-5 text-gray-600 dark:text-white transition duration-300 group-hover:translate-x-1"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
-                          clipRule="evenodd"
+                      <HashLink smooth to="#transcription">
+                        <img
+                          src="https://i.postimg.cc/Qt7G5Gfx/Translator-bro_(1).png"
+                          alt="Transcription"
+                          className=""
                         />
-                      </svg>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div
-                style={{ boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.75)" }}
-                className="p-8 py-12 sm:p-12 rounded-3xl dark:bg-secondary dark:shadow-none"
-              >
-                <div className="space-y-12 text-center">
-                  <Link
-                    href="https://www.freepik.com"
-                    title="Freepik"
-                    className="text-xs"
-                  >
-                    <img
-                      src="https://i.postimg.cc/ZRwhHFC3/transcription.png"
-                      className="w-20  xx:w-16 xs:w-16 mx-auto"
-                      width="512"
-                      height="512"
-                      alt="Content writer"
-                    />
-                  </Link>
+                      </HashLink>
+                    </p>
 
-                  <div className="space-y-6">
-                    <h3 className="text-2xl font-semibold text-secondary transition dark:text-white">
-                      Transcription
-                    </h3>
-                    <p className="text-secondary dark:text-primary">
-                      You have a recording—audio or video—that you want turned
-                      into a book. I transcribe it, then craft it into a book.
-                      This service caters to individuals preferring to vocalize
-                      their thoughts or messages rather than type them out.
-                    </p>
-                    <Link
-                      to={"/services"}
-                      className="group relative flex mx-auto h-12 w-12 items-center justify-center before:absolute before:inset-0 before:rounded-full before:border before:border-primary before:bg-primary before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-secondary dark:before:bg-secondary"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="relative w-5 h-5 text-gray-600 dark:text-white transition duration-300 group-hover:translate-x-1"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </Link>
+                    <HashLink smooth to={"#transcription"}>
+                      <p className=" text-accent">Learn More...</p>
+                    </HashLink>
                   </div>
                 </div>
               </div>
@@ -372,13 +280,255 @@ const Editing = () => {
                   style={{ borderLeft: "2px solid #ef0909" }}
                   className="text-xl font-extrabold btn-two mt-3 w-[9rem] h-[3rem]"
                 >
-                  Contact Us
+                  Contact Me
                 </button>
               </div>
             </Link>
           </div>
         </section>
-        <Testimonial />
+        {/* // */}
+        <section className="">
+          {/* editing */}
+          <div
+            id="editing"
+            className=" lg:py-20 grid sm:grid-cols-2 gap-4 lg:px-24 sm:px-12 bg-extraClr  dark:bg-[#111]  "
+          >
+            <div className="   md:px-0  grid  place-self-center">
+              <div className="mb-0 lg:pr-8 xl:pr-6 p-6 lg:text-left ">
+                <h2 className="mb-12 font-sans text-3xl lg:text-left font-bold tracking-tight text-accent sm:text-4xl sm:leading-none md:text-center">
+                  <strong>Editing</strong>
+                </h2>
+
+                <div className=" sm:hidden xx:grid place-content-center">
+                  {/* small screen  */}
+
+                  <img
+                    src="https://i.postimg.cc/YSZBhqfs/Editing_body_text-bro_(1).png"
+                    alt=""
+                    className=" ss:w-[32rem]  xs:w-[24rem]  xx:w-[20rem]  shadow-md"
+                  />
+                </div>
+                <div className="">
+                  <p className="my-6 font-medium  lg:text-lg text-secondary dark:text-primary lg:text-left md:text-lg md:text-center">
+                    You need me to dot your I’s, cross your T’s and ensure no
+                    grammatical or typographic errors survive. As your editor, I
+                    serve as a professional pair of eyes who will iron out
+                    mistakes and polish your writing until it glimmers.
+                  </p>
+                </div>
+
+                <div className="mb-10 grid place-content-start  md:mb-16 lg:mb-12">
+                  <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
+                    <div className="btn-two-container ">
+                      <button className="text-xl font-extrabold btn-two mt-3 w-[11rem] h-[4rem]">
+                        CONTACT ME
+                      </button>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="bg xx:hidden sm:grid place-content-end">
+              <img
+                src="https://i.postimg.cc/YSZBhqfs/Editing_body_text-bro_(1).png"
+                alt=""
+                className=" sm:w-[24rem] lg:w-[32rem] rounded-lg  shadow-md"
+              />
+            </div>
+          </div>
+          {/* ghost writing */}
+          <div
+            id="ghost-writing"
+            className=" lg:py-20 grid sm:grid-cols-2 gap-4 lg:px-24 sm:px-12 bg-primary  dark:bg-black  "
+          >
+            <div className="   md:px-0  grid  place-self-center">
+              <div className="mb-0 lg:pr-8 xl:pr-6 p-6 lg:text-left ">
+                <h2 className="mb-12 font-sans text-3xl lg:text-left font-bold tracking-tight text-accent sm:text-4xl sm:leading-none md:text-center">
+                  <strong>Ghost Writing</strong>
+                </h2>
+
+                <div className=" sm:hidden xx:grid place-content-center">
+                  {/* small screen  */}
+
+                  <img
+                    src="https://i.postimg.cc/YSZBhqfs/Editing_body_text-bro_(1).png"
+                    alt=""
+                    className=" ss:w-[32rem]  xs:w-[24rem]  xx:w-[20rem]  shadow-md"
+                  />
+                </div>
+                <div className="">
+                  <p className="my-6 font-medium  lg:text-lg text-secondary dark:text-primary lg:text-left md:text-lg md:text-center">
+                    You know what you want to write, but you probably only have
+                    the skeletal framework. It’s still in your head, scribbled
+                    on several notepads, or scattered round your laptop. I come
+                    around to understand precisely what you want to write and
+                    write it out for you.
+                  </p>
+                  <p className="mb-12 font-medium lg:text-lg text-secondary dark:text-primary lg:text-left md:text-lg md:text-center">
+                    It could be that you just don’t have the time to write.
+                    Therefore, you share your dream with me and I reproduce it
+                    on paper. Clearly, compellingly.
+                  </p>
+                </div>
+
+                <div className="mb-10 grid place-content-start  md:mb-16 lg:mb-12">
+                  <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
+                    <div className="btn-two-container ">
+                      <button className="text-xl font-extrabold btn-two mt-3 w-[11rem] h-[4rem]">
+                        CONTACT ME
+                      </button>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="bg xx:hidden sm:grid place-content-end">
+              <img
+                src="https://i.postimg.cc/YSZBhqfs/Editing_body_text-bro_(1).png"
+                alt=""
+                className=" sm:w-[24rem] lg:w-[32rem] rounded-lg  shadow-md"
+              />
+            </div>
+          </div>
+          {/* collaboration */}
+          <div
+            id="collaboration"
+            className=" lg:py-20 grid sm:grid-cols-2 gap-4 lg:px-24 sm:px-12 bg-extraClr  dark:bg-secondary  "
+          >
+            <div className="bg xx:hidden sm:grid place-content-start">
+              <img
+                src="https://i.postimg.cc/YSZBhqfs/Editing_body_text-bro_(1).png"
+                alt=""
+                className=" sm:w-[24rem] lg:w-[32rem] rounded-lg  shadow-md"
+              />
+            </div>
+            <div className="   md:px-0  grid  place-self-center">
+              <div className="mb-0 lg:pr-8 xl:pr-6 p-6 lg:text-left ">
+                <h2 className="mb-12 font-sans text-3xl lg:text-left font-bold tracking-tight text-accent sm:text-4xl sm:leading-none md:text-center">
+                  <strong>Collaboration</strong>
+                </h2>
+
+                <div className=" sm:hidden xx:grid place-content-center">
+                  {/* small screen  */}
+
+                  <img
+                    src="https://i.postimg.cc/YSZBhqfs/Editing_body_text-bro_(1).png"
+                    alt=""
+                    className=" ss:w-[32rem]  xs:w-[24rem]  xx:w-[20rem]  shadow-md"
+                  />
+                </div>
+                <div className="">
+                  <p className="my-6 font-medium  lg:text-lg text-secondary dark:text-primary lg:text-left md:text-lg md:text-center">
+                    You have an existing piece of work. With collaboration, a
+                    paragraph could be redone or deleted altogether. A better
+                    introduction could be added, repetitions removed, and the
+                    message better explained. Collaboration is when I join with
+                    you to make your message as rich as it should be. It’s a
+                    partnership.
+                  </p>
+                  <p className="my-6 font-medium lg:text-lg text-secondary dark:text-primary lg:text-left md:text-lg md:text-center">
+                    With collaboration, you could send me 30 pages and I send
+                    you 75. Of course, I won’t go adding things to your book or
+                    redoing things unless we’ve discussed it. And I show you the
+                    work at each step. You get to vet everything. If you say,
+                    “Bravo! Carry on!” I carry on.
+                  </p>
+                  <p className="my-6 font-medium lg:text-lg text-secondary dark:text-primary lg:text-left md:text-lg md:text-center">
+                    This was from a client I collaborated with: “Thank you for
+                    the work done so far and making the book more interesting to
+                    read. I love the way you rearranged the chapters into parts.
+                    I am currently vetting the major additions; I will let you
+                    know once I am done.” That’s how it goes.
+                  </p>
+                </div>
+
+                <div className="mb-10 grid place-content-start  md:mb-16 lg:mb-12">
+                  <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
+                    <div className="btn-two-container ">
+                      <button className="text-xl font-extrabold btn-two mt-3 w-[11rem] h-[4rem]">
+                        CONTACT ME
+                      </button>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* transcription */}
+          <div
+            id="transcription"
+            className=" lg:py-20 grid sm:grid-cols-2 gap-4 lg:px-24 sm:px-12 bg-primary  dark:bg-secondary "
+          >
+            <div className="bg xx:hidden sm:grid place-content-start">
+              <img
+                src="https://i.postimg.cc/YSZBhqfs/Editing_body_text-bro_(1).png"
+                alt=""
+                className=" sm:w-[24rem] lg:w-[32rem] rounded-lg  shadow-md"
+              />
+            </div>
+            <div className="   md:px-0  grid  place-self-center">
+              <div className="mb-0 lg:pr-8 xl:pr-6 p-6 lg:text-left ">
+                <h2 className="mb-12 font-sans text-3xl lg:text-left font-bold tracking-tight text-accent sm:text-4xl sm:leading-none md:text-center">
+                  <strong>Transcription</strong>
+                </h2>
+
+                <div className=" sm:hidden xx:grid place-content-center">
+                  {/* small screen  */}
+
+                  <img
+                    src="https://i.postimg.cc/YSZBhqfs/Editing_body_text-bro_(1).png"
+                    alt=""
+                    className=" ss:w-[32rem]  xs:w-[24rem]  xx:w-[20rem]  shadow-md"
+                  />
+                </div>
+                <div className="">
+                  <p className="my-6 font-medium  lg:text-lg text-secondary dark:text-primary lg:text-left md:text-lg md:text-center">
+                    What you have is a recording—audio or video recording—and
+                    you want that recording made into a book. First, I
+                    transcribe that recording, and then I take it from there,
+                    making it into a book. It’s perfect for people who’d rather
+                    “talk” their thoughts or message than sit to type it out.
+                  </p>
+                  <p className="my-6 font-medium lg:text-lg text-secondary dark:text-primary lg:text-left md:text-lg md:text-center">
+                    Some of us are just better off verbally explaining things
+                    than writing them. So, if you think you’d do better sending
+                    me a recording of your story, speech, or training than
+                    attempting to write it, transcription covers all of it.
+                  </p>
+                  <p className="mb-6 font-medium lg:text-lg text-secondary dark:text-primary lg:text-left md:text-lg md:text-center">
+                    Mine is to ensure you write that important book, that you
+                    share that necessary message. And the ways I help you are
+                    editing, collaboration, ghostwriting, and transcription.
+                    <i className="text-accent">
+                      “Okay, I’m in. how do we do this?” I hear you ask.
+                    </i>
+                  </p>
+                </div>
+
+                <div className="mb-10 grid place-content-start  md:mb-16 lg:mb-12">
+                  <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
+                    <div className="btn-two-container ">
+                      <button className="text-xl font-extrabold btn-two mt-3 w-[11rem] h-[4rem]">
+                        CONTACT ME
+                      </button>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* Testimonial  */}
+        <div style={{ cursor: "grab" }} id="testimonial">
+          <section className="py-16 bg-extraClr dark:bg-black xx:px-0 md:px-12">
+            <div className=" m-auto  text-secondary dark:text-gray-300 xx:px-6 md:px-12 xl:px-6">
+              <div className="mb-20 space-y-4 px-6 md:px-0">
+                <MySlider />
+              </div>
+            </div>
+          </section>
+        </div>
+
         {/* FAQ */}
         <Faq />
       </div>

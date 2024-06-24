@@ -12,6 +12,7 @@ import {
   Editing,
   ContentWriting,
   StoryWritingCoaching,
+  TestimonialPg,
 } from "./pages/pages";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -78,7 +79,7 @@ function App() {
             path="/storyWritingCoaching"
             element={<StoryWritingCoaching />}
           />
-
+          <Route path="/testimonialPg" element={<TestimonialPg />} />
           <Route path="/community" element={<Community />} />
           <Route path="/blogContentPg" element={<BlogContentPg />} />
         </Routes>
