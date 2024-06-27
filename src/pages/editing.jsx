@@ -406,8 +406,8 @@ const Editing = () => {
           <div className="  grid place-content-center  ss:mt-12 xx:mt-6">
             <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
               <div className="btn-two-container ">
-                <button className="text-xl xx:text-lg font-extrabold btn-two mt-3 w-[15rem] h-[4rem]">
-                  SEND US A MESSAGE
+                <button className="text-xl xx:text-lg font-extrabold btn-two mt-3 w-[16rem] h-[4rem]">
+                  SEND ME A MESSAGE
                 </button>
               </div>
             </Link>

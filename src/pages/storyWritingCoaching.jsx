@@ -104,8 +104,8 @@ const StoryWritingCoaching = () => {
                 <div className="  grid place-content-start  mt-12">
                   <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
                     <div className="btn-two-container ">
-                      <button className="text-xl font-extrabold btn-two mt-3 w-[15rem] h-[4rem]">
-                        SEND US A MESSAGE
+                      <button className="text-xl font-extrabold btn-two mt-3 w-[16rem] h-[4rem]">
+                        SEND ME A MESSAGE
                       </button>
                     </div>
                   </Link>
@@ -162,8 +162,8 @@ const StoryWritingCoaching = () => {
                 <div className="  grid place-content-start  xx:my-6 ss:mt-12">
                   <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
                     <div className="btn-two-container ">
-                      <button className="text-xl font-extrabold btn-two mt-3 w-[15rem] h-[4rem]">
-                        SEND US A MESSAGE
+                      <button className="text-xl font-extrabold btn-two mt-3 w-[16rem] h-[4rem]">
+                        SEND ME A MESSAGE
                       </button>
                     </div>
                   </Link>

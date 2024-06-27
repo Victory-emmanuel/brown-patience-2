@@ -11,7 +11,7 @@ const CoachingForAuthors = () => {
             <div className="mb-16 lg:my-40 xx:my-auto lg:max-w-lg lg:pr-5">
               <div className="lg:max-w-xl  lg:mb-6 xx:my-auto">
                 <h2 className="max-w-lg  mb-6 font-sans lg:text-5xl font-bold tracking-tight text-accent ss:text-left xx:text-center ss:text-3xl sm:text-4xl sm:leading-none">
-                  Caoching For Authors
+                  Coaching For Authors
                 </h2>
                 <p className="sm:text-base ss:text-sm mt-8 text-secondary dark:text-primary md:text-lg  ss:text-left xx:text-center">
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem

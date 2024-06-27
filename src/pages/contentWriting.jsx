@@ -29,7 +29,7 @@ const ContentWriting = () => {
             </p>
             <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
               <button className="w-[11rem] py-5 px-7 mx-auto  bg-white h-[4rem] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:text-white before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-accent before:to-lightAccent before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#343434]">
-                CONTACT US
+                CONTACT ME
               </button>
             </Link>
           </div>
@@ -139,8 +139,8 @@ const ContentWriting = () => {
             <div className="  grid place-content-center  ss:mt-12 xx:mt-6">
               <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
                 <div className="btn-two-container ">
-                  <button className="text-xl xx:text-lg font-extrabold btn-two mt-3 w-[15rem] h-[4rem]">
-                    SEND US A MESSAGE
+                  <button className="text-xl xx:text-lg font-extrabold btn-two mt-3 w-[16rem] h-[4rem]">
+                    SEND ME A MESSAGE
                   </button>
                 </div>
               </Link>

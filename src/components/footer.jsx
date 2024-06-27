@@ -54,7 +54,7 @@ const Footer = () => {
                     to={"/about"}
                     className="hover:text-accent dark:text-primary font-bold font-xl"
                   >
-                    About us
+                    About me
                   </Link>
                 </li>
                 <li>

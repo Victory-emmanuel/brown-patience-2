@@ -13,7 +13,7 @@ const community = () => {
                 <h1 className="max-w-xl mb-12 font-sans lg:text-6xl font-bold tracking-tight text-green sm:text-4xl sm:leading-none">
                   Welcome To Oasis
                 </h1>
-                <p className="text-2xl max-w-xl  text-secondary dark:text-primary ss:text-base md:text-lg">
+                <p className="text-2xl max-w-xl  text-secondary ss:text-base md:text-lg">
                   You don't like what happens in your thoughts. You'd like to
                   change that. This is an <strong>Oasis</strong> of Purifying
                   Water & directions for use.

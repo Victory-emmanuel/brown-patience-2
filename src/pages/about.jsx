@@ -20,7 +20,7 @@ const About = () => {
         <section className=" dark:bg-secondary py-16 xx:px-6 ss:px-12">
           <div className="bg-primary dark:bg-secondary gap-8 items-center ss:py-24 xx:py-12 mx-auto max-w-screen-xl xl:gap-16 grid md:grid-cols-2 sm:py-16 lg:px-6">
             <div className="mt-4 md:mt-0 text-left">
-              <h4 className="lg:mb-6 font-light dark:text-green">
+              <h4 className="lg:mb-6 font-light text-secondary dark:text-accent">
                 Where It Began For
               </h4>
               <h2 className="mb-12 text-4xl tracking-tight font-extrabold text-accent dark:text-white">
@@ -65,8 +65,10 @@ const About = () => {
             </div>
           </div>
           <div className="">
-            <h4 className="my-6">The Epiphany</h4>
-            <p className="mb-6">
+            <h4 className="my-6  text-secondary dark:text-primary">
+              The Epiphany
+            </h4>
+            <p className="mb-6 text-secondary dark:text-primary">
               I wasn't bad at accounting as an undergrad. In fact, I gained a
               reputation in my set as one of the people with the most
               explanatory course notes. You want a person that can write down
@@ -80,7 +82,7 @@ const About = () => {
               looking like the road for me. During those 9 months when I did a
               lot of reading and writing, worrying and praying, I got an answer.
             </p>
-            <p className="mb-6">
+            <p className="mb-6 text-secondary dark:text-primary">
               I like to tell my friends that the pandemic slowed us down long
               enough to find ourselves. We slowed down long enough to hear our
               own thoughts, to find what we'd rather pursue. It had always been
@@ -92,7 +94,7 @@ const About = () => {
               me. I began giving writing a good look. It came when I asked,
               “God, what should I be doing?”
             </p>
-            <p className="mb-6">
+            <p className="mb-6 text-secondary dark:text-primary">
               So if you ask me what my motivation is, what my reason is, I'll
               say “God.” A thousand times over. Outside God, without God's
               leading, there's nothing to Brown Patience. Had God not led me
@@ -107,7 +109,7 @@ const About = () => {
               119:32-35, MSG). I have no other plan for my life but to follow
               God's plan.
             </p>
-            <p className="my-4">
+            <p className="my-4  text-secondary dark:text-primary">
               It seems like it started in Apapa, Lagos. In a public primary
               school where I discovered I really liked comprehension passages,
               where I represented my school in Spelling Bee competitions. And
@@ -115,8 +117,11 @@ const About = () => {
               encouraged me to write, where I found out that words were easy to
               piece together, that my imagination could run with dizzying speed,
               that I could forge stories only from wanting to. But even before
-              those, it started with God's <b className="font-bold">gift</b>. He
-              gave me this talent; He's been leading me on how to put it to
+              those, it started with God's
+              <b className="font-bold  text-secondary dark:text-primary">
+                gift
+              </b>
+              . He gave me this talent; He's been leading me on how to put it to
               fruit-bearing use. Over my life, He'll reap much harvest. And I'll
               be able to say, like Jesus, “I have brought you glory on earth by
               finishing the work you gave me to do” (John 17:4, NIV).
@@ -137,7 +142,7 @@ const About = () => {
             </div>
 
             <div className="mt-4 md:mt-0 text-left">
-              <h4 className="lg:mb-6 font-light dark:text-green">
+              <h4 className="lg:mb-6 font-light dark:text-accent text-secondary">
                 The Story Of
               </h4>
               <h2 className="mb-12 text-4xl tracking-tight font-extrabold text-accent dark:text-white">
