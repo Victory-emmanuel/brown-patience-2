@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
-import gTD from "../data/generalTstmData";
+import swcData from "../../data/swcData";
 
-const MySlider = () => {
+const Section2 = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
@@ -44,17 +44,17 @@ const MySlider = () => {
   };
 
   return (
-    <div style={{ cursor: "pointer" }} id="testimonial">
-      <section id="mySlider" className="py-16 ss:px-12 xx:px-6">
+    <div style={{ cursor: "pointer" }} id="section2">
+      <section id="mySlider" className="py-16 ss:px-12 xs:px-6 xx:px-2">
         <div className="relative">
           <div className="">
             <h2 className="text-center text-2xl mb-12 font-bold text-gray-800 dark:text-white md:text-4xl">
-              Books Can Save Lives
+              Story Writing Coaching Testimonials
             </h2>
           </div>
 
           <div id="slider-container" ref={sliderRef}>
-            {gTD.map((items, index) => (
+            {swcData.map((items, index) => (
               <div
                 key={items.id}
                 className={`slide ${
@@ -80,7 +80,7 @@ const MySlider = () => {
                     </p>
                   </div>
                 </div>
-                <p className="text-secondary dark:text-primary">
+                <p className="text-secondary dark:text-primary text-base xx:text-sm">
                   {items.content}
                 </p>
               </div>
@@ -92,4 +92,4 @@ const MySlider = () => {
   );
 };
 
-export default MySlider;
+export default Section2;

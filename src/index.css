@@ -206,6 +206,19 @@ svg {
 }
 
 /* CAROUSEL EDIT */
+.slider-container {
+  height: 25rem;
+}
+.slider-container .shadow-2xl {
+  --tw-shadow: none;
+  --tw-shadow-colored: none;
+  box-shadow: none;
+}
+@media (max-width: 400px) {
+  .slider-container {
+    padding: 0;
+  }
+}
 
 .slick-next:before,
 .slick-prev:before {
@@ -216,20 +229,22 @@ svg {
 }
 
 @media (max-width: 600px) {
-  .slick-next:before,
-  .slick-prev:before {
-    display: none;
+  .slick-next {
+    position: absolute;
+    right: 40%;
+    top: 100%;
+    z-index: 1;
+  }
+  .slick-prev {
+    position: absolute;
+    left: 40%;
+    top: 100%;
+    z-index: 1;
   }
 }
 
 .slick-dots {
   bottom: -50px;
-}
-
-.slider-container .shadow-2xl {
-  --tw-shadow: none;
-  --tw-shadow-colored: none;
-  box-shadow: none;
 }
 
 *,
@@ -239,6 +254,20 @@ svg {
   border-color: none;
 }
 
+#testimonial .content {
+  height: 10rem;
+}
+
+@media (max-width: 1000px) {
+  #testimonial .content {
+    height: 17rem;
+  }
+}
+@media (max-width: 800px) {
+  #testimonial .content {
+    height: 12rem;
+  }
+}
 /* NAVIGATION */
 
 #footer svg:hover,
@@ -327,18 +356,10 @@ svg {
 }
 
 /* MY Testimonial no slides */
-:root {
-  --primary: #4263eb;
-  --secondary: #f8f9fa;
-  --accent: #ff6b6b;
-  --gray-500: #6c757d;
-  --gray-700: #343a40;
-  --extra-color: #ced4da;
-}
 
 #slider-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
   grid-gap: 1.5rem;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
@@ -408,9 +429,19 @@ svg {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1400px) {
   #slider-container {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  }
+}
+@media (max-width: 1100px) {
+  #slider-container {
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  }
+}
+@media (max-width: 900px) {
+  #slider-container {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   }
 }
 

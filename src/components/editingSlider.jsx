@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
-import gTD from "../data/generalTstmData";
+import editingData from "../data/editingData";
 
-const MySlider = () => {
+const EditingSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
@@ -45,21 +45,21 @@ const MySlider = () => {
 
   return (
     <div style={{ cursor: "pointer" }} id="testimonial">
-      <section id="mySlider" className="py-16 ss:px-12 xx:px-6">
+      <section id="mySlider" className="py-16  xs:px-6 xx:px-2">
         <div className="relative">
           <div className="">
             <h2 className="text-center text-2xl mb-12 font-bold text-gray-800 dark:text-white md:text-4xl">
-              Books Can Save Lives
+              What My Clients Have To Say
             </h2>
           </div>
 
           <div id="slider-container" ref={sliderRef}>
-            {gTD.map((items, index) => (
+            {editingData.map((items, index) => (
               <div
                 key={items.id}
                 className={`slide ${
                   index === currentSlide ? "active" : ""
-                } relative bg-primary rounded dark:bg-black`}
+                } relative bg-primary rounded dark:bg-secondary`}
                 onClick={() => handleSlideClick(index)}
               >
                 <div className="flex gap-4">
@@ -72,17 +72,11 @@ const MySlider = () => {
                     loading="lazy"
                   />
                   <div className="mb-2">
-                    <h6 className="text-secondary dark:text-primary">
-                      {items.name}
-                    </h6>
-                    <p className="text-secondary dark:text-primary">
-                      {items.title}
-                    </p>
+                    <h6 className="">{items.name}</h6>
+                    <p className="">{items.title}</p>
                   </div>
                 </div>
-                <p className="text-secondary dark:text-primary">
-                  {items.content}
-                </p>
+                <p className="">{items.content}</p>
               </div>
             ))}
           </div>
@@ -92,4 +86,4 @@ const MySlider = () => {
   );
 };
 
-export default MySlider;
+export default EditingSlider;

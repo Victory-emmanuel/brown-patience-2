@@ -1,4 +1,4 @@
-const tstmData = [
+const editingData = [
   {
     id: 1,
     name: "Timilehin Oshinowo.",
@@ -80,4 +80,4 @@ const tstmData = [
       "“Your patience and consistency in making sure my book was properly and thoroughly put together was very encouraging and highly inspiring. Thank you.”",
   },
 ];
-export default tstmData;
+export default editingData;

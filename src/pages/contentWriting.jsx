@@ -78,7 +78,7 @@ const ContentWriting = () => {
                   <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
                     <div className="btn-two-container ">
                       <button className="text-xl font-extrabold btn-two mt-3 w-[15rem] h-[4rem] ">
-                        SEND US A MESSAGE
+                        SEND ME A MESSAGE
                       </button>
                     </div>
                   </Link>
@@ -86,6 +86,7 @@ const ContentWriting = () => {
               </div>
             </div>
           </div>
+          {/* STEPS */}
           <div className="ss:px-12 xx:px-6 mt-12 py-16 mb-12 mx-auto ">
             <div className="mb-12 md:mx-auto text-center">
               <h2 className=" pb-6  ss:text-3xl xx:text-2xl font-bold leading-none tracking-tight text-secondary dark:text-primary md:mx-auto">

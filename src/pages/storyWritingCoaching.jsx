@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Testimonial from "../components/testimonial";
 import { ArrowRightAlt, DoneAll } from "@mui/icons-material";
 import Faq from "../components/faq";
+import SwcTstm from "../components/swcTstm";
 
 const StoryWritingCoaching = () => {
   return (
@@ -215,7 +216,16 @@ const StoryWritingCoaching = () => {
             </div>
           </div>
         </section>
-        <Testimonial />
+        {/* Testimonial  */}
+        <div style={{ cursor: "grab" }} id="testimonial">
+          <section className="py-16 bg-extraClr dark:bg-black xx:px-0 md:px-12">
+            <div className=" m-auto  text-secondary dark:text-gray-300 xx:px-6 md:px-12 xl:px-6">
+              <div className="mb-20 space-y-4 px-6 md:px-0">
+                <SwcTstm />
+              </div>
+            </div>
+          </section>
+        </div>
         {/* FREQUENTLY ASKED QUESTION */}
         <Faq />
       </div>

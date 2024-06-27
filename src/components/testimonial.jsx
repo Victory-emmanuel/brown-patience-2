@@ -1,5 +1,6 @@
 import Slider from "react-slick";
-import tstmData from "../data/tstmData";
+import gTD from "../data/generalTstmData";
+import { Link } from "react-router-dom";
 
 const Testimonial = () => {
   function SampleNextArrow(props) {
@@ -9,7 +10,7 @@ const Testimonial = () => {
         className={className}
         style={{
           ...style,
-          display: "block",
+          display: "absolute",
           borderRadius: "100%",
         }}
         onClick={onClick}
@@ -22,7 +23,7 @@ const Testimonial = () => {
     return (
       <div
         className={className}
-        style={{ ...style, display: "block" }}
+        style={{ ...style, display: "absolute" }}
         onClick={onClick}
       />
     );
@@ -30,6 +31,8 @@ const Testimonial = () => {
   const settings = {
     dots: false,
     infinite: true,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 2,
@@ -41,10 +44,7 @@ const Testimonial = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          infinite: true,
           dots: true,
-          nextArrow: <SampleNextArrow />,
-          prevArrow: <SamplePrevArrow />,
         },
       },
       {
@@ -52,10 +52,7 @@ const Testimonial = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          infinite: true,
           dots: true,
-          nextArrow: <SampleNextArrow />,
-          prevArrow: <SamplePrevArrow />,
         },
       },
       {
@@ -82,16 +79,21 @@ const Testimonial = () => {
           <div className=" m-auto  text-secondary dark:text-gray-300 xx:px-6 md:px-12 xl:px-6">
             <div className="mb-20 space-y-4 px-6 md:px-0">
               <h2 className="text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
-                What Our Customers Have To Say
+                Books Can Save Lives
               </h2>
+              <p className=" text-gray-800 dark:text-white text-center">
+                If you’re wondering why you should go ahead and write, here’s
+                your writing fire! Books can save lives. These are real people
+                testifying of real impact.
+              </p>
             </div>
 
-            <div className=" slider-container">
+            <div className=" relative slider-container">
               <Slider {...settings}>
-                {tstmData.map((items) => (
+                {gTD.map((items) => (
                   <div
                     key={items.id}
-                    className="aspect-auto p-8 border h-[25rem] border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
+                    className="aspect-auto p-8 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
                   >
                     <div className="flex gap-4">
                       <img
@@ -111,8 +113,13 @@ const Testimonial = () => {
                         </p>
                       </div>
                     </div>
-                    <p className="mt-8 bg-white dark:bg-secondary p-8 rounded-lg   ">
-                      {items.content}
+                    <p className="mt-8 bg-white  dark:bg-secondary ss:p-8 xx:p-4 rounded-lg content  ">
+                      <p className=" line-clamp-4 xx:line-clamp-5">
+                        {items.content}...
+                      </p>
+                      <Link to="/testimonialPg">
+                        <span className="text-accent">See More...</span>
+                      </Link>
                     </p>
                   </div>
                 ))}
