@@ -18,12 +18,9 @@ const Editing = () => {
               Book Writing and Editing
             </h1>
             <p className="sm:text-2xl xx:text-xl xx:w-full ss:w-[75%] mx-auto  text-white xx:py-3  ss:py-6 ">
-              Here, you have the writing ready. But you just need another pair
-              of eyes to tell you, “This is good to go.” In my experience,
-              proofreading and editing is more than dotting I’s and crossing
-              T’s. There have been cases where the client saw reason to upturn
-              the work. Isn’t that the good thing about getting professional
-              service? Things get better.
+              You know it's important to have pair of professional eyes go
+              through your manuscript. Or you need someone to help you put your
+              thoughts together, to help you make a book. . .
             </p>
             <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
               <button className="w-[11rem] py-5 px-7 mx-auto  bg-white h-[4rem] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:text-white before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-accent before:to-lightAccent before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#343434]">
@@ -47,14 +44,7 @@ const Editing = () => {
                 </Link>
               </div>
 
-              <p className="text-secondary mt-4 mb-12 inline-block mx-auto ss:w-[75%] xx:w-full text-center text-lg dark:text-primary">
-                When we're clear on precisely what you want to say, writing will
-                commence. Using an outline we designed, your book or any other
-                project will come together seamlessly, with you reserving the
-                right to monitor each milestone, ensuring it captures your voice
-                and your “Why?” Editing is the polishing phase. No, we cant
-                afford to let a comma be in the wrong place.
-              </p>
+              <p className="text-secondary mt-4 mb-12 inline-block mx-auto ss:w-[75%] xx:w-full text-center text-lg dark:text-primary"></p>
             </div>
             {/* SECTION 1 */}
             <div className="py-16 my-12">
@@ -563,7 +553,7 @@ const Editing = () => {
                   {/* small screen  */}
 
                   <img
-                    src="https://i.postimg.cc/YSZBhqfs/Editing_body_text-bro_(1).png"
+                    src="https://i.postimg.cc/W4hPNJrZ/Notes-bro_(1).png"
                     alt=""
                     className=" ss:w-[32rem]  xs:w-[24rem]  xx:w-[20rem]  shadow-md"
                   />
@@ -596,7 +586,7 @@ const Editing = () => {
             </div>
             <div className="bg xx:hidden sm:grid place-content-end">
               <img
-                src="https://i.postimg.cc/YSZBhqfs/Editing_body_text-bro_(1).png"
+                src="https://i.postimg.cc/W4hPNJrZ/Notes-bro_(1).png"
                 alt=""
                 className=" sm:w-[24rem] lg:w-[32rem] rounded-lg  shadow-md"
               />
@@ -609,7 +599,7 @@ const Editing = () => {
           >
             <div className="bg xx:hidden sm:grid place-content-start">
               <img
-                src="https://i.postimg.cc/YSZBhqfs/Editing_body_text-bro_(1).png"
+                src="https://i.postimg.cc/W19vc7Dj/Collaboration-amico_(1).png"
                 alt=""
                 className=" sm:w-[24rem] lg:w-[32rem] rounded-lg  shadow-md"
               />
@@ -624,7 +614,7 @@ const Editing = () => {
                   {/* small screen  */}
 
                   <img
-                    src="https://i.postimg.cc/YSZBhqfs/Editing_body_text-bro_(1).png"
+                    src="https://i.postimg.cc/W19vc7Dj/Collaboration-amico_(1).png"
                     alt=""
                     className=" ss:w-[32rem]  xs:w-[24rem]  xx:w-[20rem]  shadow-md"
                   />
@@ -673,7 +663,7 @@ const Editing = () => {
           >
             <div className="bg xx:hidden sm:grid place-content-start">
               <img
-                src="https://i.postimg.cc/YSZBhqfs/Editing_body_text-bro_(1).png"
+                src="https://i.postimg.cc/Qt7G5Gfx/Translator-bro_(1).png"
                 alt=""
                 className=" sm:w-[24rem] lg:w-[32rem] rounded-lg  shadow-md"
               />
@@ -688,7 +678,7 @@ const Editing = () => {
                   {/* small screen  */}
 
                   <img
-                    src="https://i.postimg.cc/YSZBhqfs/Editing_body_text-bro_(1).png"
+                    src="https://i.postimg.cc/Qt7G5Gfx/Translator-bro_(1).png"
                     alt=""
                     className=" ss:w-[32rem]  xs:w-[24rem]  xx:w-[20rem]  shadow-md"
                   />
@@ -722,6 +712,467 @@ const Editing = () => {
                     <div className="btn-two-container ">
                       <button className="text-xl font-extrabold btn-two mt-3 w-[11rem] h-[4rem]">
                         CONTACT ME
+                      </button>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* BOOKS IVE'S WORKED ON "BODY" */}
+        <section id="" className="">
+          {/* Edusell */}
+          <div
+            id="edusell"
+            className=" lg:py-20 grid sm:grid-cols-2 gap-4 lg:px-24 sm:px-12 bg-extraClr dark:bg-[#111] "
+          >
+            <div className="   md:px-0  grid  place-self-center">
+              <div className="mb-0 lg:pr-8 xl:pr-6 lg:text-left p-6">
+                <h2 className="mb-12 font-sans text-3xl lg:text-left font-bold tracking-tight text-accent sm:text-4xl sm:leading-none md:text-center">
+                  <strong>Edusell</strong>
+                </h2>
+                {/* small screen */}
+                <div className="bg xx:grid place-content-center sm:hidden">
+                  <div
+                    style={{
+                      boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)",
+                      background: `url("https://i.postimg.cc/j2Bx6zxf/20240218-134232.jpg") no-repeat center center/cover`,
+                    }}
+                    className="img1  ss:w-[32rem]  xs:w-[24rem]  xx:w-[20rem]  my-8  sm:w-0 rounded-lg"
+                  ></div>
+                </div>
+                {/* /// */}
+                <div className="">
+                  <p className="mb-6 font-medium xx:text-base  lg:text-lg text-secondary  dark:text-primary lg:text-left md:text-lg md:text-center">
+                    <p className="mb-4">
+                      When this manuscript got to me, I was told it had been
+                      edited already. I'll never be caught putting down another
+                      person's work but to be professionally fair, this
+                      manuscript, supposedly edited before getting to me,
+                      surprised me.
+                    </p>
+                    <p className="">
+                      I was glad it hadn't been published in that state. Cause
+                      it “needed” work.
+                    </p>
+                    <ul className=" my-4 list-none">
+                      <li className=" mb-4 text-base">
+                        — Grouping of similar parts into sections.
+                      </li>
+                      <li className=" mb-4 text-base">
+                        — Rearranging the chapters so concepts could flow into
+                        one another.
+                      </li>
+                      <li className=" mb-4 text-base">
+                        — Renaming of chapters for clarity.
+                      </li>
+                      <li className=" mb-4 text-base">
+                        — Lots of necessary deletions.
+                      </li>
+                      <li className=" mb-4 text-base">
+                        — and ensuring the book's message rang out.
+                      </li>
+                    </ul>
+                    <p className="">
+                      It was like clearing away so much debris to unveil the
+                      diamond beneath. <br /> At the end of my editing, my
+                      client was also glad the manuscript hadn't been published
+                      in its former state. <br /> When you need your manuscript
+                      to shine—saying precisely what you intended it to
+                      say—please send me a message. I'm an editor that can do
+                      just that.
+                    </p>
+                  </p>
+                </div>
+
+                <div className="mb-10 grid place-content-start  md:mb-16 lg:mb-12">
+                  <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
+                    <div className="btn-two-container ">
+                      <button className="text-xl font-extrabold btn-two mt-3 w-[11rem] h-[4rem]">
+                        GET YOUR COPY
+                      </button>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            {/* big screen */}
+            <div className="bg sm:grid place-content-end mb-auto xx:hidden">
+              <div
+                style={{
+                  boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)",
+                  background: `url("https://i.postimg.cc/j2Bx6zxf/20240218-134232.jpg") no-repeat center center/cover`,
+                }}
+                className="img1  sm:w-[24rem] sm:h-[24rem]  lg:w-[32rem] lg:h-[32rem] rounded-lg"
+              ></div>
+            </div>
+            {/* /// */}
+          </div>
+          {/* A gift to deborah */}
+          <div
+            id="a-gift-to-deborah"
+            className=" lg:py-20 grid sm:grid-cols-2 gap-4 lg:px-24 sm:px-12 bg-extraClr dark:bg-[#111] "
+          >
+            <div className="   md:px-0  grid  place-self-center">
+              <div className="mb-0 lg:pr-8 xl:pr-6 lg:text-left p-6">
+                <h2 className="mb-12 font-sans text-3xl lg:text-left font-bold tracking-tight text-accent sm:text-4xl sm:leading-none md:text-center">
+                  <strong>A Gift To Deborah</strong>
+                </h2>
+                {/* small screen */}
+                <div className="bg xx:grid place-content-center sm:hidden">
+                  <div
+                    style={{
+                      boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)",
+                      background: `url("https://i.postimg.cc/wjLvVbsj/20240218-134019.jpg") no-repeat center center/cover`,
+                    }}
+                    className="img1  ss:w-[32rem]  xs:w-[24rem]  xx:w-[20rem]  my-8  sm:w-0 rounded-lg"
+                  ></div>
+                </div>
+                {/* /// */}
+                <div className="">
+                  <p className="mb-6 font-medium xx:text-base  lg:text-lg text-secondary  dark:text-primary lg:text-left md:text-lg md:text-center">
+                    <p className="mb-4">
+                      Precious Ayomikun carries the girl child in her thoughts —
+                      in things she does, with the projects she embarks on, and
+                      the places she volunteers in.
+                    </p>
+                    <p className="mb-4">
+                      So when she decided to write a book for young women, a
+                      book detailing her own stroll through the corridors of
+                      depression and inadequacy, I was glad (oh so glad) to
+                      collaborate with her & make it the sincere, vulnerable,
+                      I-understand-what-it's-like letter she wanted to write.
+                    </p>
+
+                    <p className="">
+                      Wherever a young woman finds this book, it'll be a gift
+                      indeed.
+                    </p>
+                  </p>
+                </div>
+
+                <div className="mb-10 grid place-content-start  md:mb-16 lg:mb-12">
+                  <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
+                    <div className="btn-two-container ">
+                      <button className="text-xl font-extrabold btn-two mt-3 w-[11rem] h-[4rem]">
+                        GET YOUR COPY
+                      </button>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            {/* big screen */}
+            <div className="bg sm:grid place-content-end mb-auto xx:hidden">
+              <div
+                style={{
+                  boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)",
+                  background: `url("https://i.postimg.cc/wjLvVbsj/20240218-134019.jpg") no-repeat center center/cover`,
+                }}
+                className="img1  sm:w-[24rem] sm:h-[24rem]  lg:w-[32rem] lg:h-[32rem] rounded-lg"
+              ></div>
+            </div>
+            {/* /// */}
+          </div>
+          {/*Envision */}
+          <div
+            id="envision"
+            className=" lg:py-20 grid sm:grid-cols-2 gap-4 lg:px-24 sm:px-12 bg-primary dark:bg-secondary "
+          >
+            {/* big screen */}
+            <div className="bg sm:grid place-content-start mb-auto xx:hidden">
+              <div
+                style={{
+                  boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)",
+                  background: `url("https://i.postimg.cc/LsVsdYDd/20240218-134117.jpg") no-repeat center center/cover`,
+                }}
+                className="img1  sm:w-[24rem] sm:h-[24rem]  lg:w-[32rem] lg:h-[32rem] rounded-lg"
+              ></div>
+            </div>
+            {/* /// */}
+            <div className="   md:px-0  grid  place-self-center">
+              <div className="mb-0 lg:pr-8 xl:pr-6 lg:text-left p-6">
+                <h2 className="mb-12 font-sans text-3xl lg:text-left font-bold tracking-tight text-accent sm:text-4xl sm:leading-none md:text-center">
+                  <strong>Envision</strong>
+                </h2>
+                {/* small screen */}
+                <div className="bg xx:grid place-content-center sm:hidden">
+                  <div
+                    style={{
+                      boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)",
+                      background: `url("https://i.postimg.cc/LsVsdYDd/20240218-134117.jpg") no-repeat center center/cover`,
+                    }}
+                    className="img1  ss:w-[32rem]  xs:w-[24rem]  xx:w-[20rem]  my-8  sm:w-0 rounded-lg"
+                  ></div>
+                </div>
+                {/* /// */}
+                <div className="">
+                  <p className="mb-6 font-medium xx:text-base  lg:text-lg text-secondary  dark:text-primary lg:text-left md:text-lg md:text-center">
+                    <p className="mb-4">
+                      This Nigerian-born medical doctor could have been
+                      prescribing medication only for the body, but she decided
+                      to craft medicine for the mind as well.
+                    </p>
+                    <p className="mb-4">
+                      Doctor Oyindamola wrote a short, precise, and sharp book
+                      targeted at the ones who want to live purposefully. And
+                      she needed a ghostwriter to collaborate with her on it, to
+                      make the book the pointed, read-it-all-in-one-sitting
+                      force it now is.
+                    </p>
+
+                    <p className="">Glad to have aided her quest!</p>
+                  </p>
+                </div>
+
+                <div className="mb-10 grid place-content-start  md:mb-16 lg:mb-12">
+                  <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
+                    <div className="btn-two-container ">
+                      <button className="text-xl font-extrabold btn-two mt-3 w-[11rem] h-[4rem]">
+                        GET YOUR COPY
+                      </button>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/*On Point */}
+          <div
+            id="on-point"
+            className=" lg:py-20 grid sm:grid-cols-2 gap-4 lg:px-24 sm:px-12 bg-primary dark:bg-secondary "
+          >
+            {/* big screen */}
+            <div className="bg sm:grid place-content-start mb-auto xx:hidden">
+              <div
+                style={{
+                  boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)",
+                  background: `url("https://i.postimg.cc/kMHgddQ5/20240218-134712.jpg") no-repeat center center/cover`,
+                }}
+                className="img1  sm:w-[24rem] sm:h-[24rem]  lg:w-[32rem] lg:h-[32rem] rounded-lg"
+              ></div>
+            </div>
+            {/* /// */}
+            <div className="   md:px-0  grid  place-self-center">
+              <div className="mb-0 lg:pr-8 xl:pr-6 lg:text-left p-6">
+                <h2 className="mb-12 font-sans text-3xl lg:text-left font-bold tracking-tight text-accent sm:text-4xl sm:leading-none md:text-center">
+                  <strong>On Point</strong>
+                </h2>
+                {/* small screen */}
+                <div className="bg xx:grid place-content-center sm:hidden">
+                  <div
+                    style={{
+                      boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)",
+                      background: `url("https://i.postimg.cc/kMHgddQ5/20240218-134712.jpg") no-repeat center center/cover`,
+                    }}
+                    className="img1  ss:w-[32rem]  xs:w-[24rem]  xx:w-[20rem]  my-8  sm:w-0 rounded-lg"
+                  ></div>
+                </div>
+                {/* /// */}
+                <div className="">
+                  <p className="mb-6 font-medium xx:text-base  lg:text-lg text-secondary  dark:text-primary lg:text-left md:text-lg md:text-center">
+                    <p className="mb-4">
+                      Days after its author released this pointed missive into
+                      the world, the number of downloads and reviews assured me
+                      afresh of what I'd known since I saw the manuscript:
+                      Olamide wrote a necessary book.
+                    </p>
+                    <p className="mb-4">
+                      It was short, precise, and put goal setting in a
+                      different, blessed light. I was honored to help make On
+                      Point as rich as it was.
+                    </p>
+                    <p className="">
+                      And Olamide says it's only the brief instalment of what's
+                      to come. A bigger book will soon be here. Cheers to that!
+                    </p>
+                  </p>
+                </div>
+
+                <div className="mb-10 grid place-content-start  md:mb-16 lg:mb-12">
+                  <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
+                    <div className="btn-two-container ">
+                      <button className="text-xl font-extrabold btn-two mt-3 w-[11rem] h-[4rem]">
+                        GET YOUR COPY
+                      </button>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* Billionaire Codes */}
+          <div
+            id="billionaire-codes"
+            className=" lg:py-20 grid sm:grid-cols-2 gap-4 lg:px-24 sm:px-12 bg-extraClr dark:bg-[#111] "
+          >
+            <div className="   md:px-0  grid  place-self-center">
+              <div className="mb-0 lg:pr-8 xl:pr-6 lg:text-left p-6">
+                <h2 className="mb-12 font-sans text-3xl lg:text-left font-bold tracking-tight text-accent sm:text-4xl sm:leading-none md:text-center">
+                  <strong>Billionaire Codes</strong>
+                </h2>
+                {/* small screen */}
+                <div className="bg xx:grid place-content-center sm:hidden">
+                  <div
+                    style={{
+                      boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)",
+                      background: `url("https://i.postimg.cc/xCxTCwBt/20240218-134201.jpg") no-repeat center center/cover`,
+                    }}
+                    className="img1  ss:w-[32rem]  xs:w-[24rem]  xx:w-[20rem]  my-8  sm:w-0 rounded-lg"
+                  ></div>
+                </div>
+                {/* /// */}
+                <div className="">
+                  <p className="mb-6 font-medium xx:text-base  lg:text-lg text-secondary  dark:text-primary lg:text-left md:text-lg md:text-center">
+                    <p className="mb-4">
+                      The personnel in charge of getting Dr. Stephen Akintayo's
+                      Billionaire Codes edited sought an editor who could cut
+                      out repetitions, tighten every chapter, and sharpen the
+                      message. It was my honor to serve as the editor they
+                      needed.
+                    </p>
+                  </p>
+                </div>
+
+                <div className="mb-10 grid place-content-start  md:mb-16 lg:mb-12">
+                  <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
+                    <div className="btn-two-container ">
+                      <button className="text-xl font-extrabold btn-two mt-3 w-[11rem] h-[4rem]">
+                        GET YOUR COPY
+                      </button>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            {/* big screen */}
+            <div className="bg sm:grid place-content-end mb-auto xx:hidden">
+              <div
+                style={{
+                  boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)",
+                  background: `url("https://i.postimg.cc/xCxTCwBt/20240218-134201.jpg") no-repeat center center/cover`,
+                }}
+                className="img1  sm:w-[24rem] sm:h-[24rem]  lg:w-[32rem] lg:h-[32rem] rounded-lg"
+              ></div>
+            </div>
+            {/* /// */}
+          </div>
+          {/* 7 Battles Every Trader Must Fight to Win */}
+          <div
+            id="7-battles-every-trader-must-figh-to-win"
+            className=" lg:py-20 grid sm:grid-cols-2 gap-4 lg:px-24 sm:px-12 bg-extraClr dark:bg-[#111] "
+          >
+            <div className="   md:px-0  grid  place-self-center">
+              <div className="mb-0 lg:pr-8 xl:pr-6 lg:text-left p-6">
+                <h2 className="mb-12 font-sans text-3xl lg:text-left font-bold tracking-tight text-accent sm:text-4xl sm:leading-none md:text-center">
+                  <strong>7 Battles Every Trader Must Fight to Win</strong>
+                </h2>
+                {/* small screen */}
+                <div className="bg xx:grid place-content-center sm:hidden">
+                  <div
+                    style={{
+                      boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)",
+                      background: `url("https://i.postimg.cc/kg0R6XyD/20240218_134317.jpg") no-repeat center center/cover`,
+                    }}
+                    className="img1  ss:w-[32rem]  xs:w-[24rem]  xx:w-[20rem]  my-8  sm:w-0 rounded-lg"
+                  ></div>
+                </div>
+                {/* /// */}
+                <div className="">
+                  <p className="mb-6 font-medium xx:text-base  lg:text-lg text-secondary  dark:text-primary lg:text-left md:text-lg md:text-center">
+                    <p className="mb-4">
+                      A cryptocurrency expert, a coach to many, Mayowa Owolabi
+                      certainly knows the struggles of traders. And when he
+                      needed the videos from his coaching sessions transcribed
+                      into this book, I was glad to make the dream a hardcover
+                      reality.
+                    </p>
+                  </p>
+                </div>
+
+                <div className="mb-10 grid place-content-start  md:mb-16 lg:mb-12">
+                  <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
+                    <div className="btn-two-container ">
+                      <button className="text-xl font-extrabold btn-two mt-3 w-[11rem] h-[4rem]">
+                        GET YOUR COPY
+                      </button>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            {/* big screen */}
+            <div className="bg sm:grid place-content-end mb-auto xx:hidden">
+              <div
+                style={{
+                  boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)",
+                  background: `url("https://i.postimg.cc/kg0R6XyD/20240218_134317.jpg") no-repeat center center/cover`,
+                }}
+                className="img1  sm:w-[24rem] sm:h-[24rem]  lg:w-[32rem] lg:h-[32rem] rounded-lg"
+              ></div>
+            </div>
+            {/* /// */}
+          </div>
+          {/*100 Money Mistakes People Make */}
+          <div
+            id="100-money-mistakes-people-make"
+            className=" lg:py-20 grid sm:grid-cols-2 gap-4 lg:px-24 sm:px-12 bg-primary dark:bg-secondary "
+          >
+            {/* big screen */}
+            <div className="bg sm:grid place-content-start mb-auto xx:hidden">
+              <div
+                style={{
+                  boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)",
+                  background: `url("https://i.postimg.cc/yN0gF4fj/20240304_104847.jpg") no-repeat center center/cover`,
+                }}
+                className="img1  sm:w-[24rem] sm:h-[32rem]  lg:w-[32rem] lg:h-[40rem] rounded-lg"
+              ></div>
+            </div>
+            {/* /// */}
+            <div className="   md:px-0  grid  place-self-center">
+              <div className="mb-0 lg:pr-8 xl:pr-6 lg:text-left p-6">
+                <h2 className="mb-12 font-sans text-3xl lg:text-left font-bold tracking-tight text-accent sm:text-4xl sm:leading-none md:text-center">
+                  <strong>100 Money Mistakes People Make </strong>
+                </h2>
+                {/* small screen */}
+                <div className="bg xx:grid place-content-center sm:hidden">
+                  <div
+                    style={{
+                      boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)",
+                      background: `url("https://i.postimg.cc/yN0gF4fj/20240304_104847.jpg") no-repeat center center/cover`,
+                    }}
+                    className="img1  ss:w-[32rem]  sm:h-[40rem] xs:w-[24rem] xs:h-[32rem]  xx:w-[20rem] xx:h-[24rem]  my-8  sm:w-0 rounded-lg"
+                  ></div>
+                </div>
+                {/* /// */}
+                <div className="">
+                  <p className="mb-6 font-medium xx:text-base  lg:text-lg text-secondary  dark:text-primary lg:text-left md:text-lg md:text-center">
+                    <p className="mb-4">
+                      This project started as a series of coaching sessions.
+                      Then Dr. Mayowa Owolabi decided to share bullet points of
+                      a few money mistakes on social media. The demand grew so
+                      large that he decided to compile the coaching sessions
+                      into a book.
+                    </p>
+                    <p className="mb-4">
+                      That's where I came in. I transcribed those video sessions
+                      into this very book. Now, his teachings reach more people.
+                    </p>
+
+                    <p className="">
+                      If you could “talk your book” and have someone transcribe
+                      your words, would that quicken your journey to authoring
+                      that book in your heart?
+                    </p>
+                  </p>
+                </div>
+
+                <div className="mb-10 grid place-content-start  md:mb-16 lg:mb-12">
+                  <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
+                    <div className="btn-two-container ">
+                      <button className="text-xl font-extrabold btn-two mt-3 w-[11rem] h-[4rem]">
+                        GET YOUR COPY
                       </button>
                     </div>
                   </Link>

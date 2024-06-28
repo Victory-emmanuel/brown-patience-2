@@ -17,8 +17,10 @@ const Servicesect = () => {
                 My Services
               </h2>
               <p className="text-secondary dark:text-primary">
-                How will I help you share your message? Through the following
-                services:
+                “If you have a great message or story to share, and will like to
+                put it out in book format, reach Brown Patience. She's got
+                really great skills in book writing, editing and finishing. Her
+                services are superb.”* — Timi Oshinowo.
               </p>
             </div>
             <div className="mt-16 grid  place-self-center  gap-8 sm:w-2/3  md:w-full md:grid-cols-2 md:-mx-8 lg:grid-cols-3">
@@ -141,7 +143,7 @@ const Servicesect = () => {
 
                   <div className="space-y-6">
                     <h3 className="text-2xl font-semibold text-secondary transition dark:text-white">
-                      Coaching For Story Writers
+                      Coaching For Writers
                     </h3>
                     <p className="text-secondary dark:text-primary">
                       If you want to train your team of content writers on how

@@ -206,7 +206,12 @@ const MyBook = () => {
                   <p className="mt-2 text-primary dark:text-gray-600 text-base xs:text-sm xx:text-xs">
                     Precious Ayomikun carries the girl child in her thoughts —
                     in things she does, with the projects she embarks on, and
-                    the places she volunteers in.......
+                    the places she volunteers in...{" "}
+                    <HashLink smooth to="/editing#a-gift-to-deborah">
+                      <span className="text-semibold text-primary">
+                        See More
+                      </span>
+                    </HashLink>
                   </p>
                 </div>
               </div>
@@ -230,7 +235,12 @@ const MyBook = () => {
                     The personnel in charge of getting Dr. Stephen Akintayo's
                     Billionaire Codes edited sought an editor who could cut out
                     repetitions, tighten every chapter, and sharpen the message.
-                    ........
+                    ...
+                    <HashLink smooth to="/editing#billionaire-codes">
+                      <span className="text-semibold text-primary">
+                        See More
+                      </span>
+                    </HashLink>
                   </p>
                 </div>
               </div>
@@ -255,7 +265,12 @@ const MyBook = () => {
                     edited already. I'll never be caught putting down another
                     person's work but to be professionally fair, this
                     manuscript, supposedly edited before getting to me,
-                    surprised me. ......
+                    surprised me...
+                    <HashLink smooth to="/editing#edusell">
+                      <span className="text-semibold text-primary">
+                        See More
+                      </span>
+                    </HashLink>
                   </p>
                 </div>
               </div>
@@ -263,7 +278,7 @@ const MyBook = () => {
           </div>
           {/* My Books */}
           <div className="  mx-auto px-6 md:px-12">
-            <div className="text-center">
+            {/* <div className="text-center">
               <h2
                 style={{
                   borderBottom: "2px solid #343434",
@@ -273,11 +288,11 @@ const MyBook = () => {
               >
                 My Books
               </h2>
-            </div>
+            </div> */}
 
             <div className="my-16 items-center grid ss:grid-cols-2 xx:grid-cols-1">
               <h4 className=" text-2xl ss:block xx:hidden font-bold text-secondary dark:text-white md:text-2xl">
-                POPULAR
+                MY BOOKS
               </h4>
               <div className="ss:justify-self-end xx:justify-self-center ">
                 <Link to={"/book"}>

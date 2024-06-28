@@ -1,5 +1,6 @@
 import { Instagram } from "@mui/icons-material";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const community = () => {
   return (
@@ -179,17 +180,17 @@ const community = () => {
               />
               <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-green dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
                 <div>
-                  <h4 className="text-xl font-semibold dark:text-gray-700 text-white">
+                  <h4 className="text-xl   xx:mb-2  ss:mb-6  font-semibold dark:text-gray-700 text-white">
                     Brown Patience
                   </h4>
-                  <span className="block text-sm text-white dark:text-secondary">
-                    Writer
-                  </span>
                 </div>
                 <p className="mt-2 text-primary dark:text-gray-600">
                   This is a book about porn addiction. About the darkness that
                   persists even after you've stopped viewing it. All based on
-                  true experience......
+                  true experience...
+                  <HashLink smooth to="/book#so-he-taught-me-no">
+                    <span className="text-semibold text-primary">See More</span>
+                  </HashLink>
                 </p>
               </div>
             </div>
@@ -204,16 +205,16 @@ const community = () => {
               />
               <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-green dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
                 <div>
-                  <h4 className="text-xl font-semibold dark:text-gray-700 text-white">
+                  <h4 className="text-xl   xx:mb-2  ss:mb-6  font-semibold dark:text-gray-700 text-white">
                     Brown Patience
                   </h4>
-                  <span className="block text-sm text-white dark:text-secondary">
-                    Writer
-                  </span>
                 </div>
                 <p className="mt-2 text-primary dark:text-gray-600">
                   What you do with your mind will turn and do you. I should
-                  know. If you brood and ruminate on depressing thoughts.....
+                  know. If you brood and ruminate on depressing thoughts...
+                  <HashLink smooth to="/book#so-he-taught-me-no">
+                    <span className="text-semibold text-primary">See More</span>
+                  </HashLink>
                 </p>
               </div>
             </div>
@@ -228,17 +229,17 @@ const community = () => {
               />
               <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-green dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
                 <div>
-                  <h4 className="text-xl font-semibold dark:text-gray-700 text-white">
+                  <h4 className="text-xl   xx:mb-2  ss:mb-6  font-semibold dark:text-gray-700 text-white">
                     Brown Patience
                   </h4>
-                  <span className="block text-sm text-white dark:text-secondary">
-                    Writer
-                  </span>
                 </div>
                 <p className="mt-2 text-primary dark:text-gray-600">
                   Fantasy is about the sexual mental struggles we face. Those
                   steamy thoughts that feel like you're engaging in a porn video
-                  production.......
+                  production...
+                  <HashLink smooth to="/book#so-he-taught-me-no">
+                    <span className="text-semibold text-primary">See More</span>
+                  </HashLink>
                 </p>
               </div>
             </div>
