@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import Slider from "react-slick";
 
 const MyBook = () => {
@@ -198,14 +199,14 @@ const MyBook = () => {
                 />
                 <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-accent dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
                   <div>
-                    <h4 className="text-xl font-semibold dark:text-gray-700 text-white">
-                      Brown Patience
+                    <h4 className="text-xl xx:mb-2  ss:mb-4 font-semibold dark:text-gray-700 text-white">
+                      Precious Ayomikun
                     </h4>
                   </div>
-                  <p className="mt-2 text-primary dark:text-gray-600">
-                    This is a book about porn addiction. About the darkness that
-                    persists even after you've stopped viewing it. All based on
-                    true experience......
+                  <p className="mt-2 text-primary dark:text-gray-600 text-base xs:text-sm xx:text-xs">
+                    Precious Ayomikun carries the girl child in her thoughts —
+                    in things she does, with the projects she embarks on, and
+                    the places she volunteers in.......
                   </p>
                 </div>
               </div>
@@ -221,14 +222,15 @@ const MyBook = () => {
                 />
                 <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-accent dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
                   <div>
-                    <h4 className="text-xl font-semibold dark:text-gray-700 text-white">
-                      Brown Patience
+                    <h4 className="text-xl  xx:mb-2  ss:mb-4  font-semibold dark:text-gray-700 text-white">
+                      Stephen Akintayo
                     </h4>
                   </div>
-                  <p className="mt-2 text-primary dark:text-gray-600">
-                    Born to a man without warmth, Chimamanda is married off
-                    early to a man she dreads just as much as her father. But
-                    her walls are in place........
+                  <p className="mt-2 text-primary dark:text-gray-600 text-base xs:text-sm xx:text-xs">
+                    The personnel in charge of getting Dr. Stephen Akintayo's
+                    Billionaire Codes edited sought an editor who could cut out
+                    repetitions, tighten every chapter, and sharpen the message.
+                    ........
                   </p>
                 </div>
               </div>
@@ -244,14 +246,16 @@ const MyBook = () => {
                 />
                 <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-accent dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
                   <div>
-                    <h4 className="text-xl font-semibold dark:text-gray-700 text-white">
-                      Brown Patience
+                    <h4 className="text-xl xx:mb-2  ss:mb-4 font-semibold dark:text-gray-700 text-white">
+                      Mayowa Owolabi
                     </h4>
                   </div>
-                  <p className="mt-2 text-primary dark:text-gray-600">
-                    Fantasy is about the sexual mental struggles we face. Those
-                    steamy thoughts that feel like you're engaging in a porn
-                    video production.......
+                  <p className=" text-primary dark:text-gray-600 text-base xs:text-sm xx:text-xs">
+                    When this manuscript got to me, I was told it had been
+                    edited already. I'll never be caught putting down another
+                    person's work but to be professionally fair, this
+                    manuscript, supposedly edited before getting to me,
+                    surprised me. ......
                   </p>
                 </div>
               </div>
@@ -295,14 +299,18 @@ const MyBook = () => {
                 />
                 <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-accent dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
                   <div>
-                    <h4 className="text-xl font-semibold dark:text-gray-700 text-white">
+                    <h4 className="text-xl  xx:mb-2  ss:mb-6  font-semibold dark:text-gray-700 text-white">
                       Brown Patience
                     </h4>
                   </div>
-                  <p className="mt-2 text-primary dark:text-gray-600">
+                  <p className=" text-primary dark:text-gray-600 text-base xs:text-sm xx:text-xs">
                     This is a book about porn addiction. About the darkness that
-                    persists even after you've stopped viewing it. All based on
-                    true experience......
+                    persists even after you've stopped viewing it.......
+                    <HashLink smooth to="/book#so-he-taught-me-no">
+                      <span className="text-semibold text-primary">
+                        See More
+                      </span>
+                    </HashLink>
                   </p>
                 </div>
               </div>
@@ -318,14 +326,19 @@ const MyBook = () => {
                 />
                 <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-accent dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
                   <div>
-                    <h4 className="text-xl font-semibold dark:text-gray-700 text-white">
+                    <h4 className="text-xl  xx:mb-2  ss:mb-4  font-semibold dark:text-gray-700 text-white">
                       Brown Patience
                     </h4>
                   </div>
-                  <p className="mt-2 text-primary dark:text-gray-600">
+                  <p className=" text-primary dark:text-gray-600 text-base xs:text-sm xx:text-xs">
                     Born to a man without warmth, Chimamanda is married off
                     early to a man she dreads just as much as her father. But
                     her walls are in place........
+                    <HashLink smooth to="/book#chimamanda">
+                      <span className="text-semibold text-primary">
+                        See More
+                      </span>
+                    </HashLink>
                   </p>
                 </div>
               </div>
@@ -341,14 +354,19 @@ const MyBook = () => {
                 />
                 <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-accent dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
                   <div>
-                    <h4 className="text-xl font-semibold dark:text-gray-700 text-white">
+                    <h4 className="text-xl  xx:mb-2  ss:mb-4  font-semibold dark:text-gray-700 text-white">
                       Brown Patience
                     </h4>
                   </div>
-                  <p className="mt-2 text-primary dark:text-gray-600">
+                  <p className=" text-primary  dark:text-gray-600 text-base xs:text-sm xx:text-xs">
                     Fantasy is about the sexual mental struggles we face. Those
                     steamy thoughts that feel like you're engaging in a porn
-                    video production.......
+                    .....
+                    <HashLink smooth to="/book#fantasy">
+                      <span className="text-semibold text-primary">
+                        See More
+                      </span>
+                    </HashLink>
                   </p>
                 </div>
               </div>

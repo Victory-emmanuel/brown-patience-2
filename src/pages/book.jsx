@@ -28,7 +28,10 @@ const Book = () => {
         <MyBook />
         {/* Book body */}
         <section id="book-body" className="">
-          <div className=" lg:py-20 grid sm:grid-cols-2 gap-4 lg:px-24 sm:px-12 bg-extraClr dark:bg-[#111] ">
+          <div
+            id="fantasy"
+            className=" lg:py-20 grid sm:grid-cols-2 gap-4 lg:px-24 sm:px-12 bg-extraClr dark:bg-[#111] "
+          >
             <div className="   md:px-0  grid  place-self-center">
               <div className="mb-0 lg:pr-8 xl:pr-6 lg:text-left p-6">
                 <h2 className="mb-12 font-sans text-3xl lg:text-left font-bold tracking-tight text-accent sm:text-4xl sm:leading-none md:text-center">
@@ -74,7 +77,10 @@ const Book = () => {
               ></div>
             </div>
           </div>
-          <div className=" lg:py-20 grid sm:grid-cols-2 gap-4 lg:px-12 sm:px-12 bg-white dark:bg-secondary ">
+          <div
+            id="chimamanda"
+            className=" lg:py-20 grid sm:grid-cols-2 gap-4 lg:px-12 sm:px-12 bg-white dark:bg-secondary "
+          >
             <div className="bg sm:grid xx:hidden place-content-start">
               <div
                 style={{ boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)" }}
@@ -119,7 +125,10 @@ const Book = () => {
               </div>
             </div>
           </div>
-          <div className=" lg:py-20 grid sm:grid-cols-2 gap-4 lg:px-24 sm:px-12 bg-extraClr  dark:bg-[#111]  ">
+          <div
+            id="choose-your-thoughts"
+            className=" lg:py-20 grid sm:grid-cols-2 gap-4 lg:px-24 sm:px-12 bg-extraClr  dark:bg-[#111]  "
+          >
             <div className="   md:px-0  grid  place-self-center">
               <div className="mb-0 lg:pr-8 xl:pr-6 p-6 lg:text-left ">
                 <h2 className="mb-12 font-sans text-3xl lg:text-left font-bold tracking-tight text-accent sm:text-4xl sm:leading-none md:text-center">
@@ -165,7 +174,10 @@ const Book = () => {
               ></div>
             </div>
           </div>
-          <div className=" lg:py-20 grid sm:grid-cols-2 gap-4 lg:px-12 sm:px-12 bg-white dark:bg-secondary ">
+          <div
+            id="so-he-taught-me-no"
+            className=" lg:py-20 grid sm:grid-cols-2 gap-4 lg:px-12 sm:px-12 bg-white dark:bg-secondary "
+          >
             <div className="bg sm:grid xx:hidden place-content-start">
               <div
                 style={{ boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)" }}
@@ -209,7 +221,10 @@ const Book = () => {
               </div>
             </div>
           </div>
-          <div className=" lg:py-20 grid sm:grid-cols-2 gap-4 lg:px-24 sm:px-12 bg-extraClr dark:bg-[#111] ">
+          <div
+            id="priye"
+            className=" lg:py-20 grid sm:grid-cols-2 gap-4 lg:px-24 sm:px-12 bg-extraClr dark:bg-[#111] "
+          >
             <div className="   md:px-0  grid  place-self-center">
               <div className="mb-0 lg:pr-8 p-6 xl:pr-6 lg:text-left ">
                 <h2 className="mb-12 font-sans text-3xl lg:text-left font-bold tracking-tight text-accent sm:text-4xl sm:leading-none md:text-center">
