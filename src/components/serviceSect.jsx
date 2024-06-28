@@ -16,11 +16,15 @@ const Servicesect = () => {
               >
                 My Services
               </h2>
+              <p className="text-secondary dark:text-primary">
+                How will I help you share your message? Through the following
+                services:
+              </p>
             </div>
             <div className="mt-16 grid  place-self-center  gap-8 sm:w-2/3  md:w-full md:grid-cols-2 md:-mx-8 lg:grid-cols-3">
               <div
                 style={{ boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.75)" }}
-                className="p-8 py-12 sm:p-12 rounded-3xl dark:bg-secondary dark:shadow-none"
+                className="p-6 py-12 sm:p-12 rounded-3xl dark:bg-secondary dark:shadow-none"
               >
                 <div className="space-y-12 text-center">
                   <Link to="" title="Iconic Panda" className="text-xs">
@@ -68,7 +72,7 @@ const Servicesect = () => {
               </div>
               <div
                 style={{ boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.75)" }}
-                className="p-8 py-12 sm:p-12 rounded-3xl  dark:bg-secondary"
+                className="p-6 py-12 sm:p-12 rounded-3xl  dark:bg-secondary"
               >
                 <div className="space-y-12 text-center">
                   <Link
@@ -118,7 +122,7 @@ const Servicesect = () => {
               </div>
               <div
                 style={{ boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.75)" }}
-                className="p-8 py-12 sm:p-12 rounded-3xl dark:bg-secondary dark:shadow-none"
+                className="p-6 py-12 sm:p-12 rounded-3xl dark:bg-secondary dark:shadow-none"
               >
                 <div className="space-y-12 text-center">
                   <Link
