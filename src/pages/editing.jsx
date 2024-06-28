@@ -18,12 +18,12 @@ const Editing = () => {
               Book Writing and Editing
             </h1>
             <p className="sm:text-2xl xx:text-xl xx:w-full ss:w-[75%] mx-auto  text-white xx:py-3  ss:py-6 ">
-              Get your message to the people in need of it. Many gifted persons
-              have a message for their world, books they've been planning to
-              write, a community they long to impact, but they got stuck,
-              couldn't find the time to continue, and began to wonder if they'd
-              ever share that message. But with a ghostwriter to help write your
-              book, your vision stays alive.
+              Here, you have the writing ready. But you just need another pair
+              of eyes to tell you, “This is good to go.” In my experience,
+              proofreading and editing is more than dotting I’s and crossing
+              T’s. There have been cases where the client saw reason to upturn
+              the work. Isn’t that the good thing about getting professional
+              service? Things get better.
             </p>
             <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
               <button className="w-[11rem] py-5 px-7 mx-auto  bg-white h-[4rem] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:text-white before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-accent before:to-lightAccent before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#343434]">
@@ -289,6 +289,91 @@ const Editing = () => {
             </Link>
           </div>
         </section>
+        {/*   Books I've Worked On */}
+        <div className="  mx-auto px-6 mb-8 md:px-12">
+          <div className="text-center">
+            <h2
+              style={{
+                borderBottom: "2px solid #343434",
+                paddingBottom: "1rem",
+              }}
+              className=" mb-12 text-center text-2xl xx:hidden ss:inline-block font-bold text-secondary dark:text-white md:text-4xl"
+            >
+              Books I've Worked On
+            </h2>
+          </div>
+
+          <div className="grid gap-6 ss:px-4 xx:px-0 sm:px-0 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+            <div className="group relative rounded-3xl xx:w-full ss:space-y-6 overflow-hidden">
+              <img
+                className="mx-auto h-full w-full grayscale object-cover object-top ransition duration-500 group-hover:scale-105 group-hover:grayscale-0"
+                src="https://i.postimg.cc/wjLvVbsj/20240218-134019.jpg"
+                alt="woman"
+                loading="lazy"
+                width="640"
+                height="805"
+              />
+              <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-accent dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
+                <div>
+                  <h4 className="text-xl font-semibold dark:text-gray-700 text-white">
+                    Brown Patience
+                  </h4>
+                </div>
+                <p className="mt-2 text-primary dark:text-gray-600">
+                  This is a book about porn addiction. About the darkness that
+                  persists even after you've stopped viewing it. All based on
+                  true experience......
+                </p>
+              </div>
+            </div>
+
+            <div className="group relative rounded-3xl  space-y-6 overflow-hidden">
+              <img
+                className="mx-auto h-full w-full grayscale object-cover object-top ransition duration-500 group-hover:scale-105 group-hover:grayscale-0"
+                src="https://i.postimg.cc/xCxTCwBt/20240218-134201.jpg"
+                alt="Book cover"
+                loading="lazy"
+                width="640"
+                height="805"
+              />
+              <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-accent dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
+                <div>
+                  <h4 className="text-xl font-semibold dark:text-gray-700 text-white">
+                    Brown Patience
+                  </h4>
+                </div>
+                <p className="mt-2 text-primary dark:text-gray-600">
+                  Born to a man without warmth, Chimamanda is married off early
+                  to a man she dreads just as much as her father. But her walls
+                  are in place........
+                </p>
+              </div>
+            </div>
+
+            <div className="group relative rounded-3xl  space-y-6 overflow-hidden">
+              <img
+                className="mx-auto h-full w-full grayscale object-cover object-top transition duration-500 group-hover:scale-105 group-hover:grayscale-0"
+                src="https://i.postimg.cc/j2Bx6zxf/20240218-134232.jpg"
+                alt="woman"
+                loading="lazy"
+                width="640"
+                height="805"
+              />
+              <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-accent dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
+                <div>
+                  <h4 className="text-xl font-semibold dark:text-gray-700 text-white">
+                    Brown Patience
+                  </h4>
+                </div>
+                <p className="mt-2 text-primary dark:text-gray-600">
+                  Fantasy is about the sexual mental struggles we face. Those
+                  steamy thoughts that feel like you're engaging in a porn video
+                  production.......
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* STEPS */}
         <div className="ss:px-12 xx:px-6 mt-12 py-16 mb-12 mx-auto ">
           <div className="mb-12 md:mx-auto text-center">

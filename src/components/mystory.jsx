@@ -39,22 +39,26 @@ const MyStory = () => {
                 Meet Brown Patience
               </h2>
 
-              <p className="mb-6 font-light xx:text-left ss:text-center text-secondary xs:text-base md:text-lg dark:text-primary">
-                Brown has done most of her learning within books. It’s why she
-                knows—on a personal level—that words can heal, provoke, redirect
-                and transform a person. Words have always drawn her. It’s why
-                she’s s ghostwriter—to give your words the impact she knows
-                words can have, to author soul-feeding salvation, one sentence
-                after the other. It’s why she encourages you to write the book
-                you know you should, to share the message within you. An author,
-                copywriter, story writing coach, ghostwriter, and editor, Brown
-                lives within the realm of words.......................
+              <p className="mb-6 font-light xx:text-left  text-secondary xs:text-base md:text-lg dark:text-primary">
+                As a teen, I wrote for fun. I wrote to relieve boredom. I could
+                be sitting in a place and mentally remove myself from there by
+                scribbling a letter to an imaginary cousin in Vienna. Nevermind
+                that I had no idea if Vienna was actually a place. Writing was
+                how I went to places I wished I could be.
+                <p className="mt-4">
+                  As soon as the English Language teacher said, “Write a letter
+                  to your uncle in London,” it was my lucky day! All these
+                  should have told me writing was the path for me, but I
+                  couldn't have known. I said I'd be a banker when I grew up; I
+                  set my mind on pursuing accounting in college. And that's
+                  precisely what I did. Yet purpose can and will find you.
+                </p>
               </p>
               <div className="xx:grid xx:place-content-start">
                 <Link to={"/about"}>
                   <div className="btn-two-container ">
                     <button className="text-xl font-extrabold btn-two mt-3  w-[9.375rem] h-[3.125rem]">
-                      READ MORE
+                      KNOW MORE
                     </button>
                   </div>
                 </Link>

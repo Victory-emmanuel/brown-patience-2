@@ -49,7 +49,7 @@ const MySlider = () => {
         <div className="relative">
           <div className="">
             <h2 className="text-center text-2xl mb-12 font-bold text-gray-800 dark:text-white md:text-4xl">
-              Books Can Save Lives
+              Writing Can Save Lives
             </h2>
           </div>
 

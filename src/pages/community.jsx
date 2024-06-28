@@ -141,7 +141,7 @@ const community = () => {
         </section>
         {/* BOOK RECOMMENDATIONS */}
 
-        <section className="  mx-auto px-6 md:px-12">
+        <section className="  mx-auto px-6 py-6 md:px-12">
           <div className="text-center">
             <h2
               style={{
@@ -151,10 +151,10 @@ const community = () => {
               }}
               className=" mb-12 text-center text-2xl xx:hidden ss:inline-block font-bold text-secondary dark:text-white md:text-4xl"
             >
-              Our Book
+              Recommended Book
             </h2>
           </div>
-
+          {/* 
           <div className="my-16 items-center grid ss:grid-cols-2 xx:grid-cols-1">
             <h4 className=" text-2xl ss:block xx:hidden font-bold text-secondary dark:text-white md:text-2xl">
               POPULAR
@@ -166,7 +166,7 @@ const community = () => {
                 </button>
               </Link>
             </div>
-          </div>
+          </div> */}
           <div className="grid gap-6 ss:px-4 xx:px-0 sm:px-0 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
             <div className="group relative rounded-3xl xx:w-full ss:space-y-6 overflow-hidden">
               <img

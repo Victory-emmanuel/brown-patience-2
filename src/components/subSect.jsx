@@ -9,10 +9,11 @@ const SubSect = () => {
             <div className="justify-center gap-6 text-center md:flex md:text-left lg:items-center lg:gap-16">
               <div
                 className="order-last mb-6 rounded-lg xx:rounded-none shadow-[#343434] bg-accent dark:bg-secondary  md:mb-0 md:w-6/12 lg:w-6/12 p-12 xx:px-6"
-                style={{
-                  
-                  // boxShadow: " 2px 2px 39px 0px rgba(240,0,0,0.50)",
-                }}
+                style={
+                  {
+                    // boxShadow: " 2px 2px 39px 0px rgba(240,0,0,0.50)",
+                  }
+                }
               >
                 <div className="mb-6">
                   <h2 className=" font-bold mb-6 xx:text-2xl xs:text-3xl text-primary md:text-5xl dark:text-white">
@@ -60,7 +61,7 @@ const SubSect = () => {
                 </div>
               </div>
               <div className="grid  md:w-5/12 lg:w-6/12">
-                <div className="">
+                <div className="py-6">
                   <img
                     src="https://i.postimg.cc/J7NtsV2v/IMG-20220722-WA0032-01-jpeg.jpg"
                     className="rounded-lg inline-block xx:hidden md:block "

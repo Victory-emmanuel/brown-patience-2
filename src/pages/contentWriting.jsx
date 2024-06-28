@@ -20,12 +20,10 @@ const ContentWriting = () => {
               Content Writing
             </h1>
             <p className="sm:text-2xl xx:text-xl xx:w-full ss:w-[75%] mx-auto  text-white xx:py-3  ss:py-6 ">
-              Get your message to the people in need of it. Many gifted persons
-              have a message for their world, books they've been planning to
-              write, a community they long to impact, but they got stuck,
-              couldn't find the time to continue, and began to wonder if they'd
-              ever share that message. But with a ghostwriter to help write your
-              book, your vision stays alive.
+              You tell me you need content and I ask, “Which kind?” Social media
+              content? Web copies? Newsletters? Blog posts? If you can just tell
+              me what you need, you’ll get it, and even more than that, as the
+              following project descriptions will show.
             </p>
             <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
               <button className="w-[11rem] py-5 px-7 mx-auto  bg-white h-[4rem] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:text-white before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-accent before:to-lightAccent before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#343434]">
@@ -87,13 +85,13 @@ const ContentWriting = () => {
             </div>
           </div>
           {/* STEPS */}
-          <div className="ss:px-12 xx:px-6 mt-12 py-16 mb-12 mx-auto ">
+          <div className="sm:px-12  xx:px-6 mt-12 py-16 mb-12 mx-auto ">
             <div className="mb-12 md:mx-auto text-center">
               <h2 className=" pb-6  ss:text-3xl xx:text-2xl font-bold leading-none tracking-tight text-secondary dark:text-primary md:mx-auto">
                 How do I become your content writer?
               </h2>
             </div>
-            <div className="grid  gap-10 lg:grid-cols-4 sm:grid-cols-2">
+            <div className="grid  gap-4 lg:grid-cols-6 sm:grid-cols-3 ss:grid-cols-2">
               <div className="bg-secondary dark:bg-accent p-6 rounded-lg">
                 <div className="flex items-center justify-between mb-6">
                   <p className="text-2xl font-bold text-white">Step 1</p>
@@ -112,8 +110,8 @@ const ContentWriting = () => {
                 </div>
                 <p className="text-secondary">
                   A few questions run in-between. If you have samples of the
-                  kind of content you want me to create, I ask for them. We
-                  settle on a price. This is mostly based on word count.
+                  kind of content you want me to create, great. If not, no
+                  worries.
                 </p>
               </div>
               <div className="bg-extraClr p-6 rounded-lg">
@@ -122,8 +120,24 @@ const ContentWriting = () => {
                   <ArrowRightAlt sx={{ color: "#343434" }} />
                 </div>
                 <p className="text-secondary">
-                  I send you the content. You approve the content or point out
-                  the changes you need.
+                  We settle on a price. This is mostly based on word count.
+                </p>
+              </div>
+              <div className="bg-extraClr p-6 rounded-lg">
+                <div className="flex items-center justify-between mb-6">
+                  <p className="text-2xl font-bold">Step 4</p>
+                  <ArrowRightAlt sx={{ color: "#343434" }} />
+                </div>
+                <p className="text-secondary">I send you the content.</p>
+              </div>
+              <div className="bg-extraClr p-6 rounded-lg">
+                <div className="flex items-center justify-between mb-6">
+                  <p className="text-2xl font-bold">Step 5</p>
+                  <ArrowRightAlt sx={{ color: "#343434" }} />
+                </div>
+                <p className="text-secondary">
+                  You approve the content or point out the changes you need.
+                  They get done, and
                 </p>
               </div>
               <div className="bg-extraClr p-6 rounded-lg">
@@ -132,7 +146,14 @@ const ContentWriting = () => {
                   <DoneAll sx={{ color: "#343434" }} />
                 </div>
                 <p className="text-secondary">
-                  They get done, and we do it again and again.
+                  We do it again and again. That's how I get to be your content
+                  writer.
+                  <i className="text-thin text-sm ml-1">
+                    Let's get to Step 1 right away.
+                    <Link to="https://wa.me/message/DOCQNYXAEPVDH1">
+                      <b className="text-accent"> Send me a message.</b>
+                    </Link>
+                  </i>
                 </p>
               </div>
             </div>

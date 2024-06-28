@@ -79,7 +79,7 @@ const Testimonial = () => {
           <div className=" m-auto  text-secondary dark:text-gray-300 xx:px-6 md:px-12 xl:px-6">
             <div className="mb-20 space-y-4 px-6 md:px-0">
               <h2 className="text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
-                Books Can Save Lives
+                Writing Can Save Lives
               </h2>
               <p className=" text-gray-800 dark:text-white text-center">
                 If you’re wondering why you should go ahead and write, here’s
