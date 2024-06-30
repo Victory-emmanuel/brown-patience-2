@@ -44,15 +44,21 @@ const NavBar = () => {
     window.scrollTo(0, 0);
   }, [location]);
 
+  const closeMenu = () => {
+    setActive(false);
+    setServicesOpen(false);
+    setSubsOpen(false);
+  };
+
   const link = [
     { page: "Home", href: "/" },
     {
       page: "Services",
       href: "#",
       dropdown: [
-        { page: " Book Writing & Editing", href: "/editing" },
+        { page: "Book Writing & Editing", href: "/editing" },
         { page: "Content Writing", href: "/contentWriting" },
-        { page: " Coaching For Writers", href: "/coachingForWriters" },
+        { page: "Coaching For Writers", href: "/coachingForWriters" },
       ],
     },
     { page: "About", href: "/about" },
@@ -60,12 +66,11 @@ const NavBar = () => {
       page: "Subscriptions",
       href: "#",
       dropdown: [
-        { page: "Guidance For Solopreneurs", href: "/guidianceForSolopreneur" },
+        { page: "Guidance For Solopreneurs", href: "/guidanceForSolopreneurs" },
         { page: "Coaching For Authors", href: "/coachingForAuthors" },
       ],
     },
     { page: "Books", href: "/book" },
-
     { page: "Blog", href: "/blog" },
     { page: "Community", href: "/community" },
   ];
@@ -74,10 +79,10 @@ const NavBar = () => {
     <>
       <NavWrapper id="nav" className="px-12 py-2 drop-shadow-md">
         <div>
-          <NavLink to="/">
+          <NavLink to="/" onClick={closeMenu}>
             <Logo className="w-[11rem]" src={logo} />
           </NavLink>
-          <NavLink to="/">
+          <NavLink to="/" onClick={closeMenu}>
             <Logo2 className="" src={logo2} alt="" />
           </NavLink>
         </div>
@@ -108,6 +113,8 @@ const NavBar = () => {
                     if (link.page === "Services")
                       setServicesOpen(!servicesOpen);
                     if (link.page === "Subscriptions") setSubsOpen(!subsOpen);
+                  } else {
+                    closeMenu();
                   }
                 }}
               >
@@ -127,6 +134,7 @@ const NavBar = () => {
                       key={dropdownLink.page}
                       to={dropdownLink.href}
                       className="block px-4 py-2 text-sm"
+                      onClick={closeMenu}
                     >
                       {dropdownLink.page}
                     </DropdownItem>

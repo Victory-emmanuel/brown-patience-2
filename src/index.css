@@ -275,6 +275,11 @@ svg {
   color: #ef0909;
 }
 
+/* Add this to your CSS file */
+.active-link {
+  color: #ef0909;
+}
+
 /* Books */
 
 #book-body .bg .img1 {
