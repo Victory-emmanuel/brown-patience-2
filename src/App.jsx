@@ -11,8 +11,8 @@ import {
   CoachingForAuthors,
   Editing,
   ContentWriting,
-  StoryWritingCoaching,
   TestimonialPg,
+  CoachingForWriters,
 } from "./pages/pages";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -45,7 +45,7 @@ function App() {
       <div className="app relative dark:bg-secondary  duration-100">
         <div
           id=""
-          className="fixed lg:top-5 lg:right-10 xs:top-[45px] xs:right-[90px]  xx:top-[21px] xx:right-[60px]  z-20  duration-100  bg-primary rounded"
+          className="fixed lg:top-5 lg:right-10 xs:top-[45px] xs:right-[90px]  xx:top-[21px] xx:right-[60px]  z-20  duration-100  bg-transparent rounded"
         >
           {options?.map((opt) => (
             <button
@@ -75,10 +75,7 @@ function App() {
           <Route path="/coachingForAuthors" element={<CoachingForAuthors />} />
           <Route path="/editing" element={<Editing />} />
           <Route path="/contentWriting" element={<ContentWriting />} />
-          <Route
-            path="/storyWritingCoaching"
-            element={<StoryWritingCoaching />}
-          />
+          <Route path="/coachingForWriters" element={<CoachingForWriters />} />
           <Route path="/testimonialPg" element={<TestimonialPg />} />
           <Route path="/community" element={<Community />} />
           <Route path="/blogContentPg" element={<BlogContentPg />} />

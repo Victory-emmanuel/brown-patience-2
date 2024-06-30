@@ -48,7 +48,7 @@ const Faq = () => {
   return (
     <>
       <div id="faq">
-        <div className="grid lg:grid-cols-2 md:grid-cols-1 ss:pl-12 ss:pr-20  xx:px-6 gap-4 ss:px-4 py-16 mr-auto  md:px-12 lg:px-8 lg:py-20">
+        <div className="grid ss:px-12 ss:pr-20  xx:px-6 gap-4  py-16 mr-auto  md:px-12 lg:px-8 lg:py-20">
           <div className=" ">
             <div className="flex flex-col mb-16 md:mb-12 lg:text-start sm:text-center">
               <div className=" lg:text-start md:text-center ">
@@ -79,24 +79,18 @@ const Faq = () => {
                 new month.
               </Item>
               <Item title="When is the next writing class (The Art of Writing Compelling Stories)?">
-                Send a message here
-                <Link
-                  style={{
-                    color: "#ef0909",
-                    fontWeight: 500,
-                    marginLeft: " 5px",
-                    marginRight: " 5px",
-                  }}
-                  to={"https://wa.me/2348140170221"}
-                >
-                  https://wa.me/2348140170221
+                Send a message
+                <Link to={"https://wa.me/2348140170221"}>
+                  <i
+                    style={{ textDecoration: "underline" }}
+                    className="font-bold mx-1 dark:text-accent text-primary"
+                  >
+                    here
+                  </i>
                 </Link>
                 and you'll get a date.
               </Item>
             </div>
-          </div>
-          <div className="">
-            <Email />
           </div>
         </div>
       </div>

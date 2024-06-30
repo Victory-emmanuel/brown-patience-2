@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 import Faq from "../components/faq";
 import { HashLink } from "react-router-hash-link";
+import Email from "../components/email";
 
 const Book = () => {
   return (
@@ -26,18 +27,8 @@ const Book = () => {
           </div>
         </section>
         {/* My Books */}
-        <div className="  mx-auto px-6 md:px-12">
-          {/* <div className="text-center">
-              <h2
-                style={{
-                  borderBottom: "2px solid #343434",
-                  paddingBottom: "1rem",
-                }}
-                className=" mb-12 text-center text-2xl xx:hidden ss:inline-block font-bold text-secondary dark:text-white md:text-4xl"
-              >
-                My Books
-              </h2>
-            </div> */}
+        {/* <div className="  mx-auto px-6 md:px-12">
+         
 
           <div className="my-16 items-center grid ss:grid-cols-2 xx:grid-cols-1">
             <h4 className=" text-2xl ss:block xx:hidden font-bold text-secondary dark:text-white md:text-2xl">
@@ -128,7 +119,7 @@ const Book = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* Book body */}
         <section id="book-body" className="">
           <div
@@ -372,8 +363,10 @@ const Book = () => {
             </div>
           </div>
         </section>
-        {/* FAQ */}
-        <Faq />
+        {/* Ask your questions */}
+        <div className="">
+          <Email />
+        </div>
       </div>
     </>
   );

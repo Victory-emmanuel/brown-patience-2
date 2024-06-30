@@ -1,11 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Link } from "react-router-dom";
-
 import { ArrowRightAlt, DoneAll } from "@mui/icons-material";
-import Faq from "../components/faq";
 import SwcTstm from "../components/swcTstm";
+import Email from "../components/email";
 
-const StoryWritingCoaching = () => {
+const CoachingForWriters = () => {
   return (
     <>
       <div id="service">
@@ -223,11 +222,13 @@ const StoryWritingCoaching = () => {
             </div>
           </section>
         </div>
-        {/* FREQUENTLY ASKED QUESTION */}
-        <Faq />
+        {/* Ask your questions */}
+        <div className="">
+          <Email />
+        </div>
       </div>
     </>
   );
 };
 
-export default StoryWritingCoaching;
+export default CoachingForWriters;

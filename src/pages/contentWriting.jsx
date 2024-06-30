@@ -2,7 +2,8 @@
 import { Link } from "react-router-dom";
 import { ArrowRightAlt, DoneAll } from "@mui/icons-material";
 import Testimonial from "../components/testimonial";
-import Faq from "../components/faq";
+
+import Email from "../components/email";
 
 const ContentWriting = () => {
   return (
@@ -168,8 +169,10 @@ const ContentWriting = () => {
           </div>
         </section>
         <Testimonial />
-        {/* FAQ */}
-        <Faq />
+        {/* Ask your questions */}
+        <div className="">
+          <Email />
+        </div>
       </div>
     </>
   );

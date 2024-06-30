@@ -35,30 +35,45 @@ const SubSect = () => {
                         Guidance for Writing Solopreneurs.
                       </strong>
                       <p className=" p-6 rounded mt-2 ml-6  bg-primary text-sm font-semibold text-secondary">
-                        <del>N</del>12,000 / month if you're subscribing for 12
-                        months at once - <strong>20% discount</strong>
+                        {/* <del>N</del>12,000 / month if you're subscribing for 12
+                        months at once - <strong>20% discount</strong>{" "} */}
+
+                        <p className="mt-4">
+                          With this package, you get proofreading, editing, and
+                          necessary revisions to your Christian content.Guidance
+                          for Writing Solopreneurs:* With this package, you get
+                          proofreading, editing, and necessary revisions to your
+                          Christian content.
+                        </p>
+                        <Link to="/guidianceForSolopreneur">
+                          <i className="font-bold text-accent ">Learn More</i>
+                        </Link>
                       </p>
                     </li>
                     <li className="text-xl xx:text-lg mb-4  xx:text-left xs:text-left ss:text-left text-primary ">
-                      <del>N</del>25,000 / month - for the Coaching Fee.
+                      <del>N</del>25,000 / month -
+                      <strong className="pl-2"> Coaching For Authors.</strong>
                       <p className="  p-6 rounded mt-2 ml-6  bg-primary text-sm font-semibold text-secondary">
-                        No limit on chapters. You may send in a chapter a week,
-                        or send in three chapters a week and get my feedback.
+                        The coaching package where I guide you as you author
+                        your book, chapter by chapter.
+                        <Link to="/coachingForAuthors">
+                          <i className="font-bold text-accent ml-1">
+                            Learn More
+                          </i>
+                        </Link>
                       </p>
                     </li>
                   </ul>
                 </div>
 
-                <div className="mt-12 grid place-content-start ">
+                {/* <div className="mt-12 grid place-content-start ">
                   <Link className="" to={"/subs"}>
                     <button className="relative ml-6 px-6 py-4 text-secondary text-base font-bold nded-full overflow-hidden bg-white rounded-lg transition-all duration-800 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-accent before:to-secondary before:transition-all before:duration-1000 before:ease-in-out before:z-[-1] before:rounded-lg hover:before:left-0">
                       LEARN MORE
                     </button>
                   </Link>
-                  {/* <button class="btn-12">
-                    <span>Subcribe</span>
-                  </button> */}
-                </div>
+                 
+                </div> */}
               </div>
               <div className="grid  md:w-5/12 lg:w-6/12">
                 <div className="py-6">

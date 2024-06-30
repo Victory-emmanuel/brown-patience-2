@@ -21,7 +21,7 @@ const gTD = [
     title: "...",
     img: "https://i.postimg.cc/Pxvbmhxs/2150797626-1.jpg",
     content:
-      "“Working with Brown Patience was such a seamless journey. Thank you for taking me through the process. It was evidently shown in my book Envision. Your keen attention to details, all the questions you asked me during the consultation phase were so apt. It made me reflect on how excellent my book turned out. Like I always refer to you as the ‘Queen of Editing’. Thank you for your amazing work.“It wasn’t like you were just taking the job; you were passionate, intentional about it; you wanted to know exactly what was in my mind and that was how Envision could come out looking perfect in its way. So, thank you so much, Patience, my Queen of Editing. Keep on doing the good work.”“In reading ‘Atomic Habits’ by James Clear, I was able to learn about bad behaviors and principle steps to adopting good ones. I got to understand why small habits can make a big difference. I got to learn the importance of habit tracking and how to build healthy habits. I also learnt the importance of accountability. This particular one was an amazing reminder for me.”",
+      "“In reading ‘Atomic Habits’ by James Clear, I was able to learn about bad behaviors and principle steps to adopting good ones. I got to understand why small habits can make a big difference. I got to learn the importance of habit tracking and how to build healthy habits. I also learnt the importance of accountability. This particular one was an amazing reminder for me.”",
   },
   {
     id: 4,

@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import { Link } from "react-router-dom";
+import Email from "../components/email";
 
 const GuidianceForSolopreneur = () => {
   return (
@@ -239,11 +240,6 @@ const GuidianceForSolopreneur = () => {
                         12,000 naira per month when you pay a full year's
                         subscription at once.
                       </li>
-                      <li className=" mb-4 text-base">
-                        Lunch Discount: This Guidance launches in April 2024,
-                        and from April 1st to June 30th, 2024, subscriptions are
-                        10,000 per month only.
-                      </li>
                     </ul>
                   </p>
                 </div>
@@ -333,10 +329,12 @@ const GuidianceForSolopreneur = () => {
                     </h6>
                   </div>
 
-                  <p className="mb-2  text-secondary">
+                  <p className="mb-2 ">
                     <ul className="ml-4 list-disc">
                       <li className=" mb-4 text-base">
-                        We'd need to discuss it outside this package.
+                        We'd need to discuss it outside this package. This
+                        Guidance package doesn't cover ghostwriting. It only
+                        covers the editing of the writing you've already done.
                       </li>
                     </ul>
                   </p>
@@ -463,6 +461,10 @@ const GuidianceForSolopreneur = () => {
             </div>
           </div>
         </section>
+        {/* Ask your questions */}
+        <div className="">
+          <Email />
+        </div>
       </div>
     </>
   );

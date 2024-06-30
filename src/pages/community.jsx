@@ -189,7 +189,9 @@ const community = () => {
                   persists even after you've stopped viewing it. All based on
                   true experience...
                   <HashLink smooth to="/book#so-he-taught-me-no">
-                    <span className="text-semibold text-primary">See More</span>
+                    <span className="text-semibold text-primary dark:text-secondary">
+                      See More
+                    </span>
                   </HashLink>
                 </p>
               </div>
@@ -212,8 +214,10 @@ const community = () => {
                 <p className="mt-2 text-primary dark:text-gray-600">
                   What you do with your mind will turn and do you. I should
                   know. If you brood and ruminate on depressing thoughts...
-                  <HashLink smooth to="/book#so-he-taught-me-no">
-                    <span className="text-semibold text-primary">See More</span>
+                  <HashLink smooth to="/book#choose-your-thoughts">
+                    <span className="text-semibold text-primary dark:text-secondary">
+                      See More
+                    </span>
                   </HashLink>
                 </p>
               </div>
@@ -237,8 +241,10 @@ const community = () => {
                   Fantasy is about the sexual mental struggles we face. Those
                   steamy thoughts that feel like you're engaging in a porn video
                   production...
-                  <HashLink smooth to="/book#so-he-taught-me-no">
-                    <span className="text-semibold text-primary">See More</span>
+                  <HashLink smooth to="/book#fantasy">
+                    <span className="text-semibold text-primary dark:text-secondary ">
+                      See More
+                    </span>
                   </HashLink>
                 </p>
               </div>

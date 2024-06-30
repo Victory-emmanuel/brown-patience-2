@@ -7,14 +7,13 @@ import {
   Logo2,
   NavWrapper,
   NavWrapperLink,
-  NavWrapperLinkIcon,
-  StyledNavBtn,
   StyledNavText,
   DropdownMenu,
   DropdownItem,
 } from "../styles/index.styled";
 import { useState, useEffect, useRef } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   const [active, setActive] = useState(false);
@@ -53,7 +52,7 @@ const NavBar = () => {
       dropdown: [
         { page: " Book Writing & Editing", href: "/editing" },
         { page: "Content Writing", href: "/contentWriting" },
-        { page: "Story Writing Coaching", href: "/storyWritingCoaching" },
+        { page: " Coaching For Writers", href: "/coachingForWriters" },
       ],
     },
     { page: "About", href: "/about" },
@@ -75,8 +74,12 @@ const NavBar = () => {
     <>
       <NavWrapper id="nav" className="px-12 py-2 drop-shadow-md">
         <div>
-          <Logo className="w-[11rem]" src={logo} />
-          <Logo2 className="" src={logo2} alt="" />
+          <NavLink to="/">
+            <Logo className="w-[11rem]" src={logo} />
+          </NavLink>
+          <NavLink to="/">
+            <Logo2 className="" src={logo2} alt="" />
+          </NavLink>
         </div>
         {active ? (
           <IoCloseOutline
@@ -133,13 +136,6 @@ const NavBar = () => {
             </div>
           ))}
         </NavWrapperLink>
-        {/* <NavWrapperLinkIcon active={active}>
-          <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
-            <StyledNavBtn className="w-[11rem] py-5 px-7 mx-auto md:my-6 xx:my-3 sm:w-[13rem] sm:h-[4.5rem] bg-extraClr h-[2.5rem] my-3 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:text-white before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-accent before:to-lightAccent before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#343434]">
-              CONTACT US
-            </StyledNavBtn>
-          </Link>
-        </NavWrapperLinkIcon> */}
       </NavWrapper>
     </>
   );

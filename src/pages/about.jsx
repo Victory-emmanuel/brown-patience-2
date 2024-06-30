@@ -1,3 +1,4 @@
+import Email from "../components/email";
 import Faq from "../components/faq";
 
 const About = () => {
@@ -193,8 +194,10 @@ const About = () => {
             </div>
           </section>
         </section>
-        {/* FAQ */}
-        <Faq />
+        {/* Ask your questions */}
+        <div className="">
+          <Email />
+        </div>
       </div>
     </>
   );

@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Link } from "react-router-dom";
-import { Testimonial, Step, Faq } from "../components/components";
+import { Testimonial, Step, Email } from "../components/components";
 const CoachingForAuthors = () => {
   return (
     <>
@@ -255,11 +255,12 @@ const CoachingForAuthors = () => {
             </div>
           </div>
 
-          <Step />
           <Testimonial />
         </section>
-        {/* FAQ */}
-        <Faq />
+        {/* Ask your questions */}
+        <div className="">
+          <Email />
+        </div>
       </div>
     </>
   );

@@ -17,10 +17,8 @@ const Servicesect = () => {
                 My Services
               </h2>
               <p className="text-secondary dark:text-primary">
-                “If you have a great message or story to share, and will like to
-                put it out in book format, reach Brown Patience. She's got
-                really great skills in book writing, editing and finishing. Her
-                services are superb.”* — Timi Oshinowo.
+                “If you have a great message or story to share. . . reach Brown
+                Patience.” — Timi Oshinowo.
               </p>
             </div>
             <div className="mt-16 grid  place-self-center  gap-8 sm:w-2/3  md:w-full md:grid-cols-2 md:-mx-8 lg:grid-cols-3">
@@ -44,13 +42,10 @@ const Servicesect = () => {
                       Book Writing & Editing
                     </h3>
                     <p className="text-secondary dark:text-primary">
-                      Here, you have the writing ready. But you just need
-                      another pair of eyes to tell you, “This is good to go.” In
-                      my experience, proofreading and editing is more than
-                      dotting I’s and crossing T’s. There have been cases where
-                      the client saw reason to upturn the work. Isn’t that the
-                      good thing about getting professional service? Things get
-                      better.
+                      You know it's important to have pair of professional eyes
+                      go through your manuscript. Or you need someone to help
+                      you put your thoughts together, to help you make a book. .
+                      .
                     </p>
                     <Link
                       to={"/editing"}
@@ -96,11 +91,13 @@ const Servicesect = () => {
                       Content Writing
                     </h3>
                     <p className="text-secondary dark:text-primary">
-                      You tell me you need content and I ask, “Which kind?”
-                      Social media content? Web copies? Newsletters? Blog posts?
-                      If you can just tell me what you need, you’ll get it, and
-                      even more than that, as the following project descriptions
-                      will show.
+                      The sure fire way to get attention with your writing is to
+                      tell a story. Because stories keep people hooked. And this
+                      writing class teaches you to tell compelling stories in
+                      your writing. *Intro for Content Writing:* You tell me you
+                      need content and I ask, “Which kind?” Social media
+                      content? Web copies? Newsletters? Blog posts? If you can
+                      just tell me what you need, you’ll get it.
                     </p>
                     <Link
                       to={"/contentWriting"}
@@ -146,10 +143,10 @@ const Servicesect = () => {
                       Coaching For Writers
                     </h3>
                     <p className="text-secondary dark:text-primary">
-                      If you want to train your team of content writers on how
-                      to sell with stories or you want to learn the art of
-                      compelling writing for yourself, it will take only 4 weeks
-                      to make that magic happen.
+                      The sure fire way to get attention with your writing is to
+                      tell a story. Because stories keep people hooked. And this
+                      writing class teaches you to tell compelling stories in
+                      your writing.
                     </p>
                     <Link
                       to={"/storyWritingCoaching"}

@@ -6,6 +6,7 @@ import { HashLink } from "react-router-hash-link";
 import { IoMdDoneAll } from "react-icons/io";
 import { MdArrowRightAlt } from "react-icons/md";
 import EditingSlider from "../components/editingSlider";
+import Email from "../components/email";
 
 const Editing = () => {
   return (
@@ -44,7 +45,12 @@ const Editing = () => {
                 </Link>
               </div>
 
-              <p className="text-secondary mt-4 mb-12 inline-block mx-auto ss:w-[75%] xx:w-full text-center text-lg dark:text-primary"></p>
+              <p className="text-secondary mt-4 mb-12 inline-block mx-auto ss:w-[75%] xx:w-full text-center text-lg dark:text-primary">
+                "If you have a great message or story to share, and will like to
+                put it out in book format, reach Brown Patience. She's got
+                really great skills in books writing, editing and finishing. Her
+                services are superb." — Timi Oshinowo
+              </p>
             </div>
             {/* SECTION 1 */}
             <div className="py-16 my-12">
@@ -280,7 +286,7 @@ const Editing = () => {
           </div>
         </section>
         {/*   Books I've Worked On */}
-        <div className="  mx-auto px-6 mb-8 md:px-12">
+        <div className="  mx-auto px-6 py-16 mb-8 md:px-12">
           <div className="text-center">
             <h2
               style={{
@@ -364,132 +370,20 @@ const Editing = () => {
             </div>
           </div>
         </div>
-        {/* STEPS */}
-        <div className="ss:px-12 xx:px-6 mt-12 py-16 mb-12 mx-auto ">
-          <div className="mb-12 md:mx-auto text-center">
-            <h2 className=" pb-6  ss:text-3xl xx:text-2xl font-bold leading-none tracking-tight text-secondary dark:text-primary md:mx-auto">
-              How do I become your content writer?
+
+        {/* My services */}
+        <section className="">
+          <div className="text-center my-12">
+            <h2
+              style={{
+                borderBottom: "2px solid #343434",
+                paddingBottom: "1rem",
+              }}
+              className=" mb-12 text-center text-2xl xx:hidden ss:inline-block font-bold text-secondary dark:text-white md:text-4xl"
+            >
+              What Service Do You Need?
             </h2>
           </div>
-          <div className="grid  gap-10 lg:grid-cols-2 sm:grid-cols-1">
-            <div className="bg-secondary dark:bg-accent p-6 rounded-lg">
-              <div className="flex items-center justify-between mb-6">
-                <p className="text-2xl font-bold text-white">
-                  Meeting You & the Vision:
-                </p>
-                <MdArrowRightAlt style={{ color: "#fff" }} />
-              </div>
-              <p className=" text-white">
-                This is the very first interaction where you and I get to talk.
-                You send me your draft for editing or collaboration, audio or
-                video files for transcription, or explain what you want to write
-                if you need the ghostwriting service. letter? Is it a blog? A
-                landing page? Product description?
-              </p>
-              <p className=" text-white mt-4">
-                As we talk over the phone or interact via text, you help me
-                understand who you are and what you want to say, what service
-                you need, and how soon you want it done. It’s really that easy
-              </p>
-            </div>
-            <div className="bg-extraClr p-6 rounded-lg">
-              <div className="flex items-center justify-between mb-6">
-                <p className="text-2xl font-bold">Finding Clarity:</p>
-                <MdArrowRightAlt style={{ color: "#343434" }} />
-              </div>
-              <p className=" text-secondary">
-                I’ll ask questions as we talk so we can clearly articulate your
-                message, define your audience, and see if there is a need to
-                return to the drawing board.
-              </p>
-              <p className=" text-secondary mt-4">
-                Reviewing your manuscript or listening as you explain what you
-                want to write gives us a chance to determine just how defined
-                your message is. It may take a work-back:
-              </p>
-              <ul className="list-disc mt-6">
-                <li>To whom are you writing?</li>
-                <li>Why are you writing to them?</li>
-                <li>
-                  Now, what do you want to say to them? What are they supposed
-                  to take away from reading your book?
-                </li>
-              </ul>
-              <p className=" text-secondary mt-4">
-                A clarity session may have you noting, just like this dear
-                client, “Thank you for the correction. Everybody has been
-                telling me how amazing the book is. No one pointed out these to
-                me. I listened to your voice note thrice; it makes sense to me
-                now. I knew something was missing.”
-                <br />
-                This clarity session will take a phone conversation or like most
-                of my clients, a string of WhatsApp messages.
-              </p>
-            </div>
-            <div className="bg-extraClr p-6 rounded-lg">
-              <div className="flex items-center justify-between mb-6">
-                <p className="text-2xl font-bold">Writing & Editing </p>
-                <MdArrowRightAlt style={{ color: "#343434" }} />
-              </div>
-              <p className=" text-secondary">
-                When we’re clear on precisely what you want, work will commence.
-                This phase is where the actual writing takes place. Using an
-                outline we designed, your book will come together seamlessly,
-                with you reserving the right to monitor each milestone, ensuring
-                it captures your voice and your “Why?” You get to approve the
-                work as we go. If you like how it’s going, we carry on.
-              </p>
-              <p className=" text-secondary mt-4">
-                Editing is the polishing phase. No, we can’t afford to let a
-                comma be in the wrong place.
-              </p>
-            </div>
-            <div className="bg-extraClr p-6 rounded-lg">
-              <div className="flex items-center justify-between mb-6">
-                <p className="text-2xl font-bold">Completion & Approval </p>
-                <IoMdDoneAll style={{ color: "#343434" }} />
-              </div>
-              <p className=" text-secondary">
-                Now it’s all done. When the work is completed and approved, your
-                book, or any other written project, is fully yours. You hold in
-                your hand the very thing you’ve been longing to write. This is
-                the point where you happily promise to refer me to everyone
-                who’ll need this service or like one of my clients, you say to
-                me, “We will do big things together, Patience.”
-              </p>
-              <p className=" text-secondary mt-4">
-                Editing is the polishing phase. No, we can’t afford to let a
-                comma be in the wrong place.
-                <br />
-                Cheers to that!
-              </p>
-              <p className=" text-secondary mt-4">Get started now!</p>
-              <p className=" text-secondary mt-4">
-                Let’s talk. Tell me about the book you’ve been desiring to
-                write, the message you’ve been yearning to share. Let me ensure
-                you share that message. <br /> Together, we will:
-              </p>
-              <ul className="list-disc mt-6">
-                <li>Define your audience and clarify your message.</li>
-                <li>
-                  Organize your thoughts into a logical, well-flowing outline.
-                </li>
-                <li>Communicate your message clearly, compellingly.</li>
-              </ul>
-            </div>
-          </div>
-          <div className="  grid place-content-center  ss:mt-12 xx:mt-6">
-            <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
-              <div className="btn-two-container ">
-                <button className="text-xl xx:text-lg font-extrabold btn-two mt-3 w-[16rem] h-[4rem]">
-                  SEND ME A MESSAGE
-                </button>
-              </div>
-            </Link>
-          </div>
-        </div>
-        {/* // */}
-        <section className="">
           {/* editing */}
           <div
             id="editing"
@@ -720,8 +614,145 @@ const Editing = () => {
             </div>
           </div>
         </section>
+        {/* STEPS */}
+        <div className="ss:px-12 xx:px-6 mt-12 py-16 mb-12 mx-auto ">
+          <div className="mb-12 md:mx-auto text-center">
+            <h2 className=" pb-6  ss:text-3xl xx:text-2xl font-bold leading-none tracking-tight text-secondary dark:text-primary md:mx-auto">
+              The 4-step process to get your book, your voice, your message out
+              there:
+            </h2>
+          </div>
+          <div className="grid  gap-10 lg:grid-cols-2 sm:grid-cols-1">
+            <div className="bg-secondary dark:bg-accent p-6 rounded-lg">
+              <div className="flex items-center justify-between mb-6">
+                <p className="text-2xl font-bold text-white">
+                  Meeting You & the Vision:
+                </p>
+                <MdArrowRightAlt style={{ color: "#fff" }} />
+              </div>
+              <p className=" text-white">
+                This is the very first interaction where you and I get to talk.
+                You send me your draft for editing or collaboration, audio or
+                video files for transcription, or explain what you want to write
+                if you need the ghostwriting service. letter? Is it a blog? A
+                landing page? Product description?
+              </p>
+              <p className=" text-white mt-4">
+                As we talk over the phone or interact via text, you help me
+                understand who you are and what you want to say, what service
+                you need, and how soon you want it done. It’s really that easy
+              </p>
+            </div>
+            <div className="bg-extraClr p-6 rounded-lg">
+              <div className="flex items-center justify-between mb-6">
+                <p className="text-2xl font-bold">Finding Clarity:</p>
+                <MdArrowRightAlt style={{ color: "#343434" }} />
+              </div>
+              <p className=" text-secondary">
+                I’ll ask questions as we talk so we can clearly articulate your
+                message, define your audience, and see if there is a need to
+                return to the drawing board.
+              </p>
+              <p className=" text-secondary mt-4">
+                Reviewing your manuscript or listening as you explain what you
+                want to write gives us a chance to determine just how defined
+                your message is. It may take a work-back:
+              </p>
+              <ul className="list-disc mt-6">
+                <li>To whom are you writing?</li>
+                <li>Why are you writing to them?</li>
+                <li>
+                  Now, what do you want to say to them? What are they supposed
+                  to take away from reading your book?
+                </li>
+              </ul>
+              <p className=" text-secondary mt-4">
+                A clarity session may have you noting, just like this dear
+                client, “Thank you for the correction. Everybody has been
+                telling me how amazing the book is. No one pointed out these to
+                me. I listened to your voice note thrice; it makes sense to me
+                now. I knew something was missing.”
+                <br />
+                This clarity session will take a phone conversation or like most
+                of my clients, a string of WhatsApp messages.
+              </p>
+            </div>
+            <div className="bg-extraClr p-6 rounded-lg">
+              <div className="flex items-center justify-between mb-6">
+                <p className="text-2xl font-bold">Writing & Editing </p>
+                <MdArrowRightAlt style={{ color: "#343434" }} />
+              </div>
+              <p className=" text-secondary">
+                When we’re clear on precisely what you want, work will commence.
+                This phase is where the actual writing takes place. Using an
+                outline we designed, your book will come together seamlessly,
+                with you reserving the right to monitor each milestone, ensuring
+                it captures your voice and your “Why?” You get to approve the
+                work as we go. If you like how it’s going, we carry on.
+              </p>
+              <p className=" text-secondary mt-4">
+                Editing is the polishing phase. No, we can’t afford to let a
+                comma be in the wrong place.
+              </p>
+            </div>
+            <div className="bg-extraClr p-6 rounded-lg">
+              <div className="flex items-center justify-between mb-6">
+                <p className="text-2xl font-bold">Completion & Approval </p>
+                <IoMdDoneAll style={{ color: "#343434" }} />
+              </div>
+              <p className=" text-secondary">
+                Now it’s all done. When the work is completed and approved, your
+                book, or any other written project, is fully yours. You hold in
+                your hand the very thing you’ve been longing to write. This is
+                the point where you happily promise to refer me to everyone
+                who’ll need this service or like one of my clients, you say to
+                me, “We will do big things together, Patience.”
+              </p>
+              <p className=" text-secondary mt-4">
+                Editing is the polishing phase. No, we can’t afford to let a
+                comma be in the wrong place.
+                <br />
+                Cheers to that!
+              </p>
+              <p className=" text-secondary mt-4">Get started now!</p>
+              <p className=" text-secondary mt-4">
+                Let’s talk. Tell me about the book you’ve been desiring to
+                write, the message you’ve been yearning to share. Let me ensure
+                you share that message. <br /> Together, we will:
+              </p>
+              <ul className="list-disc mt-6">
+                <li>Define your audience and clarify your message.</li>
+                <li>
+                  Organize your thoughts into a logical, well-flowing outline.
+                </li>
+                <li>Communicate your message clearly, compellingly.</li>
+              </ul>
+            </div>
+          </div>
+          <div className="  grid place-content-center  ss:mt-12 xx:mt-6">
+            <Link to={"https://wa.me/message/DOCQNYXAEPVDH1"}>
+              <div className="btn-two-container ">
+                <button className="text-xl xx:text-lg font-extrabold btn-two mt-3 w-[16rem] h-[4rem]">
+                  SEND ME A MESSAGE
+                </button>
+              </div>
+            </Link>
+          </div>
+        </div>
+
         {/* BOOKS IVE'S WORKED ON "BODY" */}
         <section id="" className="">
+          <div className="text-center my-12">
+            <h2
+              style={{
+                borderBottom: "2px solid #343434",
+                paddingBottom: "1rem",
+              }}
+              className=" mb-12 text-center text-2xl xx:hidden ss:inline-block font-bold text-secondary dark:text-white md:text-4xl"
+            >
+              Few Books I've Worked On
+            </h2>
+          </div>
           {/* Edusell */}
           <div
             id="edusell"
@@ -1192,8 +1223,10 @@ const Editing = () => {
           </section>
         </div>
 
-        {/* FAQ */}
-        <Faq />
+        {/* Ask your questions */}
+        <div className="">
+          <Email />
+        </div>
       </div>
     </>
   );

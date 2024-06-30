@@ -23,7 +23,7 @@ const Email = () => {
   return (
     <>
       <div id="email">
-        <div className="bg-accent rounded-lg">
+        <div className="bg-accent ss:mx-12 xx:mx-6 my-16 rounded-lg">
           <div className="py-8 lg:py-16 px-4 mx-auto ">
             <h2 className="mb-12 ss:text-4xl xx:text-2xl tracking-tight font-extrabold text-center text-primary">
               Ask Your Questions
