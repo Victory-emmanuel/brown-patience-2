@@ -54,16 +54,16 @@ const Editing = () => {
             </div>
             {/* SECTION 1 */}
             <div className="py-16 my-12">
-              <div className=" m-auto  bg-accent rounded-lg py-12 text-primary md:px-12 xx:px-12">
+              <div className=" m-auto  bg-accent rounded-lg py-12 text-primary ss:px-12 xx:px-0">
                 <h2 className="ss:text-3xl xx:text-xl text-center mb-16 font-semibold">
                   Who can benefit from this book writing and editing service?
                 </h2>
-                <div className="mx-auto grid gap-4 md:w-3/4 lg:w-full ss:grid-cols-2 lg:grid-cols-4">
+                <div className="mx-auto grid gap-4 md:w-3/4 xx:w-full lg:w-full ss:grid-cols-2 lg:grid-cols-4">
                   <div
                     style={{
                       boxShadow: " 2px 2px 25px 0px rgba(255,255,255,0.36)",
                     }}
-                    className="border rounded-xl  text-accent bg-white dark:bg-secondary xx:p-6 sm:py-12  sm:px-12 lg:px-8"
+                    className="border xx:rounded-none ss:rounded-xl text-accent bg-white dark:bg-secondary xx:p-6 sm:py-12  sm:px-12 lg:px-8"
                   >
                     <div className="mb-12 h-[12rem] space-y-4">
                       <h3 className="sm:text-2xl xx:text-xl mb-6 font-light">
@@ -89,7 +89,7 @@ const Editing = () => {
                     style={{
                       boxShadow: " 2px 2px 25px 0px rgba(255,255,255,0.36)",
                     }}
-                    className="border rounded-xl  text-accent bg-white dark:bg-secondary xx:p-6 sm:py-12  sm:px-12 lg:px-8"
+                    className="border rounded-xl xx:rounded-none ss:rounded-xl text-accent bg-white dark:bg-secondary xx:p-6 sm:py-12  sm:px-12 lg:px-8"
                   >
                     <div className="mb-12 h-[12rem] space-y-4">
                       <h3 className="sm:text-2xl xx:text-xl mb-6 font-light">
@@ -115,7 +115,7 @@ const Editing = () => {
                     style={{
                       boxShadow: " 2px 2px 25px 0px rgba(255,255,255,0.36)",
                     }}
-                    className="border rounded-xl  text-accent bg-white dark:bg-secondary xx:p-6 sm:py-12  sm:px-12 lg:px-8"
+                    className="border rounded-xl xx:rounded-none ss:rounded-xl text-accent bg-white dark:bg-secondary xx:p-6 sm:py-12  sm:px-12 lg:px-8"
                   >
                     <div className="mb-12 h-[12rem] space-y-4">
                       <h3 className="sm:text-2xl xx:text-xl mb-6 font-light">
@@ -141,7 +141,7 @@ const Editing = () => {
                     style={{
                       boxShadow: " 2px 2px 25px 0px rgba(255,255,255,0.36)",
                     }}
-                    className="border rounded-xl  text-accent bg-white dark:bg-secondary xx:p-6 sm:py-12  sm:px-12 lg:px-8"
+                    className="border rounded-xl xx:rounded-none ss:rounded-xl text-accent bg-white dark:bg-secondary xx:p-6 sm:py-12  sm:px-12 lg:px-8"
                   >
                     <div className="mb-12 h-[12rem] space-y-4">
                       <h3 className="sm:text-2xl xx:text-xl mb-6 font-light">
@@ -770,7 +770,7 @@ const Editing = () => {
                       boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)",
                       background: `url("https://i.postimg.cc/j2Bx6zxf/20240218-134232.jpg") no-repeat center center/cover`,
                     }}
-                    className="img1  ss:w-[32rem]  xs:w-[24rem]  xx:w-[20rem]  my-8  sm:w-0 rounded-lg"
+                    className="img1  ss:w-[32rem]  sm:h-[40rem] xs:w-[24rem] xs:h-[32rem]  xx:w-[20rem] xx:h-[24rem]  my-8  sm:w-0 rounded-lg"
                   ></div>
                 </div>
                 {/* /// */}
@@ -857,7 +857,7 @@ const Editing = () => {
                       boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)",
                       background: `url("https://i.postimg.cc/wjLvVbsj/20240218-134019.jpg") no-repeat center center/cover`,
                     }}
-                    className="img1  ss:w-[32rem]  xs:w-[24rem]  xx:w-[20rem]  my-8  sm:w-0 rounded-lg"
+                    className="img1  ss:w-[32rem]  sm:h-[40rem] xs:w-[24rem] xs:h-[32rem]  xx:w-[20rem] xx:h-[24rem]  my-8  sm:w-0 rounded-lg"
                   ></div>
                 </div>
                 {/* /// */}
@@ -934,7 +934,7 @@ const Editing = () => {
                       boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)",
                       background: `url("https://i.postimg.cc/LsVsdYDd/20240218-134117.jpg") no-repeat center center/cover`,
                     }}
-                    className="img1  ss:w-[32rem]  xs:w-[24rem]  xx:w-[20rem]  my-8  sm:w-0 rounded-lg"
+                    className="img1  ss:w-[32rem]  sm:h-[40rem] xs:w-[24rem] xs:h-[32rem]  xx:w-[20rem] xx:h-[24rem]  my-8  sm:w-0 rounded-lg"
                   ></div>
                 </div>
                 {/* /// */}
@@ -997,7 +997,7 @@ const Editing = () => {
                       boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)",
                       background: `url("https://i.postimg.cc/kMHgddQ5/20240218-134712.jpg") no-repeat center center/cover`,
                     }}
-                    className="img1  ss:w-[32rem]  xs:w-[24rem]  xx:w-[20rem]  my-8  sm:w-0 rounded-lg"
+                    className="img1  ss:w-[32rem]  sm:h-[40rem] xs:w-[24rem] xs:h-[32rem]  xx:w-[20rem] xx:h-[24rem]  my-8  sm:w-0 rounded-lg"
                   ></div>
                 </div>
                 {/* /// */}
@@ -1050,9 +1050,19 @@ const Editing = () => {
                       boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)",
                       background: `url("https://i.postimg.cc/xCxTCwBt/20240218-134201.jpg") no-repeat center center/cover`,
                     }}
-                    className="img1  ss:w-[32rem]  xs:w-[24rem]  xx:w-[20rem]  my-8  sm:w-0 rounded-lg"
+                    className="img1  ss:w-[32rem]  sm:h-[40rem] xs:w-[24rem] xs:h-[32rem]  xx:w-[20rem] xx:h-[24rem]  my-8  sm:w-0 rounded-lg"
                   ></div>
                 </div>
+                {/* small screen */}
+                {/* <div className="bg xx:grid place-content-center sm:hidden">
+                  <div
+                    style={{
+                      boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)",
+                      background: `url("https://i.postimg.cc/kg0R6XyD/20240218_134317.jpg") no-repeat center center/cover`,
+                    }}
+                    className=""
+                  ></div>
+                </div> */}
                 {/* /// */}
                 <div className="">
                   <p className="mb-6 font-medium xx:text-base  lg:text-lg text-secondary  dark:text-primary lg:text-left md:text-lg md:text-center">
@@ -1106,7 +1116,7 @@ const Editing = () => {
                       boxShadow: "2px 2px 28px -1px rgba(0,0,0,0.50)",
                       background: `url("https://i.postimg.cc/kg0R6XyD/20240218_134317.jpg") no-repeat center center/cover`,
                     }}
-                    className="img1  ss:w-[32rem]  xs:w-[24rem]  xx:w-[20rem]  my-8  sm:w-0 rounded-lg"
+                    className="img1  ss:w-[32rem]  sm:h-[40rem] xs:w-[24rem] xs:h-[32rem]  xx:w-[20rem] xx:h-[24rem]  my-8  sm:w-0 rounded-lg"
                   ></div>
                 </div>
                 {/* /// */}

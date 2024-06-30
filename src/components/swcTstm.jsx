@@ -46,7 +46,7 @@ const SwcTstm = () => {
 
   return (
     <div style={{ cursor: "pointer" }} id="testimonial">
-      <section id="mySlider" className="py-16 ss:px-12 xx:px-6">
+      <section id="mySlider" className="py-16 xs:px-6 xx:px-2">
         <div className="relative">
           <div className="">
             <h2 className="text-center text-2xl mb-12 font-bold text-gray-800 dark:text-white md:text-4xl">

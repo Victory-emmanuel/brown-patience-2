@@ -43,7 +43,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    to={"/services"}
+                    to={"/editing"}
                     className="hover:text-accent dark:text-primary font-bold font-xl"
                   >
                     Services

@@ -120,7 +120,7 @@ const CoachingForWriters = () => {
           <div className="bg-primary dark:bg-secondary xx:px-6 ss:px-12">
             <div className="gap-8 items-center py-24 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
               <div className="mt-4 md:mt-0 text-left">
-                <h2 className="mb-12 text-center text-4xl tracking-tight font-extrabold text-accent dark:text-primary">
+                <h2 className="mb-12 text-center xx:text-2xl ss:text-4xl tracking-tight font-extrabold text-accent dark:text-primary">
                   How do classes hold?
                 </h2>
                 <div className=" dark:text-primary">
@@ -167,7 +167,7 @@ const CoachingForWriters = () => {
               </div>
               <div className=" grid">
                 <img
-                  className="lg:justify-self-end md:justify-self-center  lg:mr-12 md:mr-0"
+                  className="lg:justify-self-end md:justify-self-center xx:my-6 md:my-0 lg:mr-12 md:mr-0"
                   src="https://i.postimg.cc/dQpzFDWb/20240511-231906.jpg"
                   alt="brown patience"
                   style={{
@@ -214,9 +214,9 @@ const CoachingForWriters = () => {
         </section>
         {/* Testimonial  */}
         <div style={{ cursor: "grab" }} id="testimonial">
-          <section className="py-16 bg-extraClr dark:bg-black xx:px-0 md:px-12">
-            <div className=" m-auto  text-secondary dark:text-gray-300 xx:px-6 md:px-12 xl:px-6">
-              <div className="mb-20 space-y-4 px-6 md:px-0">
+          <section className="py-16 bg-extraClr dark:bg-black xx:px-0  md:px-12">
+            <div className="  m-auto  text-secondary dark:text-gray-300 xx:px-2 md:px-12 xl:px-6">
+              <div className="mb-20 space-y-4  md:px-0">
                 <SwcTstm />
               </div>
             </div>

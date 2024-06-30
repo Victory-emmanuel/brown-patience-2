@@ -66,7 +66,10 @@ const NavBar = () => {
       page: "Subscriptions",
       href: "#",
       dropdown: [
-        { page: "Guidance For Solopreneurs", href: "/guidanceForSolopreneurs" },
+        {
+          page: "Guidance For Solopreneurs",
+          href: "/guidianceForSolopreneur",
+        },
         { page: "Coaching For Authors", href: "/coachingForAuthors" },
       ],
     },

@@ -77,7 +77,7 @@ const Testimonial = () => {
       <div style={{ cursor: "grab" }} id="testimonial">
         <section className="py-16 bg-extraClr dark:bg-secondary xx:px-0 md:px-12">
           <div className=" m-auto  text-secondary dark:text-gray-300 xx:px-6 md:px-12 xl:px-6">
-            <div className="mb-20 space-y-4 px-6 md:px-0">
+            <div className="mb-20 space-y-4 ss:px-6 md:px-0">
               <h2 className="text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
                 Writing Can Save Lives
               </h2>
@@ -93,7 +93,7 @@ const Testimonial = () => {
                 {gTD.map((items) => (
                   <div
                     key={items.id}
-                    className="aspect-auto p-8 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
+                    className="aspect-auto ss:p-8 xx:p-0 border h-full  border-extraCrl bg-transparent dark:bg-secondary dark:border-gray-700 shadow-2xl"
                   >
                     <div className="flex gap-4">
                       <img

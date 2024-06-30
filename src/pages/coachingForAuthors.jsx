@@ -13,7 +13,7 @@ const CoachingForAuthors = () => {
                 <h2 className="max-w-lg  mb-6 font-sans lg:text-5xl font-bold tracking-tight text-accent ss:text-left xx:text-center ss:text-3xl sm:text-4xl sm:leading-none">
                   Coaching For Authors
                 </h2>
-                <h5 className="sm:text-base ss:text-sm mt-8 text-secondary dark:text-primary md:text-lg  ss:text-left xx:text-center">
+                <h5 className="sm:text-base xx:text-sm mt-8 text-secondary dark:text-primary md:text-lg  ss:text-left xx:text-center">
                   Struggling to put your book together? Let's do it chapter by
                   chapter, you and I.
                 </h5>
